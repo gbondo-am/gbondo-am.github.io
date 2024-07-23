@@ -1,26 +1,22 @@
 ---
 title: "Python automation of workflows"
-excerpt: "Projects I did using python to automate workflows or tasks<br/><img src='/images/500x300.png'>"
+excerpt: "This folder holds a collection of tasks using python to automate workflows, or create custom apps to increase workplace efficiency<br/><img src='/images/automate.jpg'>"
 collection: portfolio
 ---
 
-# Project Title : Automating the process of factsheet generation using python (**autofactsheet**)
+## Project Title : Automating the process of factsheet generation using python (**autofactsheet**)
 
 ## Overview
 
-This task is part of the Hessian state radon strategy – which was a radon measurement campaign in Hessen to measure the radon concentration in soil and soil-gas. There are two main stakeholders in the project; the [Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG)](https://www.hlnug.de/geologie/radon-in-hessen/geowissenschaftliche-begleitung-der-landesradonstrategie), and the Technische Hochschule Mittelhessen (THM) in Gießen at the [Hessischen Radonzentrum (HeRaZ)](https://www.thm.de/heraz/index.php). This task was part of the public relation strategy of the project, for locals in Hessen to be aware of radon in the environment.
+This task is part of the Hessian state radon strategy – which was a radon measurement campaign in Hessen to measure the radon concentration in soil and soil-gas. There are two main stakeholders in the project; the [Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG)](https://www.hlnug.de/geologie/radon-in-hessen/geowissenschaftliche-begleitung-der-landesradonstrategie), and the Technische Hochschule Mittelhessen (THM) in Gießen at the [Hessischen Radonzentrum (HeRaZ)](https://www.thm.de/heraz/index.php). Creating factsheets is part of the public relation strategy of the project, for locals in Hessen to be aware of radon in the environment.
 
 *A factsheet* – in context to this project is a piece of document that contains essential information about the radon measurement for a particular measuring point.
 
 ## Contributors
 
-**Augustine Maada Gbondo:** Script development and database design
+**Augustine Maada Gbondo** (Script development and database design),  **Tatjana Laupenmühlen** (Template design and database design), **Dr. Heiner Heggemann** (Quality control and supervision), **Dr. Rouwen Lehné** (Quality control and supervision)
 
-**Tatjana Laupenmühlen:** Template design and database design
-
-**Dr. Heiner Heggemann:** Quality control and supervision
-
-**Dr. Rouwen Lehné:** Quality control and supervision
+#### -- Project Status: First phase completed
 
 ## Technologies used
 
@@ -33,13 +29,13 @@ This task is part of the Hessian state radon strategy – which was a radon meas
 
 ## Comment
 
-This project includes sensitive data, and the code is property of HLNUG, therefore detailed information cannot be disclosed until further notice. 
+This project includes sensitive data, and the code is now property of HLNUG. Therefore detailed information cannot be disclosed until further notice. 
 
 &nbsp; 
 
 &nbsp;
 
-# Project Title : hlnug-word-highlighter-app
+## Project Title : hlnug-word-highlighter-app
 
 ## Overview
 
@@ -48,6 +44,8 @@ This project was done for [Hessischen Landesamt für Naturschutz, Umwelt und Geo
 Staff at the agency works with documents for literature review, among other tasks. The relevance of the document mostly depends on the frequency of keywords.
 
 This app will therefore identify relevant documents so that literature reviews can be done at a much faster rate.
+
+#### -- Project Status: Completed
 
 ## Technologies used
 

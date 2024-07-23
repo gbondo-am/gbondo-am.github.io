@@ -8,7 +8,7 @@ collection: portfolio
 
 ## Overview
 
-This research focused on spatial modelling of Geogenic radonpotential in Hessen District using machine learning techniques and environmental covariables. 
+This research focused on spatial modelling of Geogenic radonpotential in Hessen District using machine learning techniques, and environmental covariables. 
 
 **Hypothesis :** It is hyothesizes that the spatial variability of geogenic radon is affected by environmental parameters related to soil, geology, meterology etc. Therefore, by modelling a relationship between known sampling points and their environmental co-variables, we can predict the radon potential in areas where the environmental co-variables are present but radon is unknown.
 

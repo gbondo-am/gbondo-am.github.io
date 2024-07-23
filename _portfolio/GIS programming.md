@@ -1,6 +1,6 @@
 ---
 title: "Geospatial programming"
-excerpt: "Projects related to programmig in GIS<br/><img src='/images/500x300.png'>"
+excerpt: " This folder includes projects and solutions developed using programming tools. Tools used are `Google Earth Engiene` for LULC classification, `html,css and Javascript` for web mapping, `Python` and associated libraries for processing and visualization tasks, and `PostGRE-SQL/PostGIS` for database design and management. <br/><img src='/images/gisp.png'>"
 collection: portfolio
 ---
 
@@ -10,12 +10,12 @@ collection: portfolio
 
 ## Overview
 
-This project was built on the [Frei-Universitaet Berlin GEO-IT coursework](https://www.geo.fu-berlin.de/en/v/geo-it/gee/3-classification/3-2-classification-gee/index.html). It aimed at utilizing geospatial technologies for environmental monitoring and assessment. Remote sensing data and machine learning algorithms within Google Earth Engine were used to classify land cover in Ar-Raqqa, Syria. Land surface temperature (LST) layer was also overlaid on the map, to visualize the spatial variability of Temperature.
+This project was built on the [Frei-Universitaet Berlin GEO-IT coursework](https://www.geo.fu-berlin.de/en/v/geo-it/gee/3-classification/3-2-classification-gee/index.html). The main aim is using geospatial technologies for environmental monitoring and assessment. Remote sensing data and machine learning algorithms within Google Earth Engine were used to classify land cover in Ar-Raqqa, Syria. A land surface temperature (LST) layer was also overlaid on the map, to visualize the spatial variability of Temperature.
 
 
 ## Method
 
-The Area of Interest (AOI) was classified into four land use classes (Water, Vegetation, Urban and barren). Training classes of the four land use classes were created using point geometry. Two models (CART model and Random Forest Model) were compared interms of accuracy socre. Final results of the classification showed that the Random Forest model had a 90% accuracy, while the CART model with a 86% accuracy.
+The Area of Interest (AOI) was classified into four land use classes (Water, Vegetation, Urban and barren) by creating training classes from point geometry. Two models (CART model and Random Forest Model) were compared in terms of accuracy socre. The final results of the classification showed that the Random Forest model had a 90% accuracy, while the CART model with a 86% accuracy.
 
 *Land use land cover mapping of Raqqa using CART and Random Forest supervised classification techniques*
 
@@ -24,7 +24,7 @@ The Area of Interest (AOI) was classified into four land use classes (Water, Veg
 [The Google Earth Engiene code can be found here](https://code.earthengine.google.com/bef2edae1acc57fa74b8fe72e0083e27) 
 
 **Comments/Future works**
-- How does the accuracy of the classification changes within platforms and amongst platforms?
+- Does the accuracy of the classification change based on classification algorithm used, and/or based on Technology used?
 - Is there a relationship between the LULC and Temperature change over time?
 
 &nbsp; 
@@ -69,8 +69,7 @@ Details of the map layers and the interface can be accessed below.
 &nbsp;
 
 
-# Project 3
-### Title : Development of a relational database management system for all the spatial  and non-spatial data of my personal projects.
+## Project Title : Development of a relational database management system for my personal projects.
 
 ## Tools : 
 `PostgreSQL/PostGIS`, `ESRI Database`, `SQL-Alchemy`, `TimescaleDB`,  

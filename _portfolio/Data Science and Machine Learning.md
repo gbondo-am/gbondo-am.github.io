@@ -1,11 +1,17 @@
 ---
-title: "ArcGIS Products"
-excerpt: "Documentation of Machine Learning projects <br/><img src='/images/arcgisproducts.png'>"
-Tools: [![My Skills](https://skillicons.dev/icons?i=github,git,py,anaconda,vscode,sklearn,tensorflow,pytorch,docker,windows)](https://skillicons.dev)
-`jupyter, Pandas, cv2, numpy, matplotlib, streamlit, Roboflow, Google Drive, MS Office, DagsHub`
+title: "Data Science and Machine Learning"
+excerpt: "This folder holds projects related to Data Science and Machine Learning. The projects implemented are focused on water and environmental domain <br/><img src='/images/arcgisproducts.png'>"
 collection: portfolio
 ---
 
+## Technologies: 
+
+[![My Skills](https://skillicons.dev/icons?i=github,git,py,anaconda,vscode,sklearn,tensorflow,pytorch,docker,windows)](https://skillicons.dev)
+`jupyter, Pandas, cv2, numpy, matplotlib, streamlit, Roboflow, Google Drive, MS Office, DagsHub`
+
+.............................................................................
+
+## Personal Projects
 
 ## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
 
@@ -82,11 +88,13 @@ The full project workflow and repository can be found [here](https://github.com/
 &nbsp; 
 
 &nbsp;
+
+............................................................................. 
 
 # OMDENA collaboration projects
+
 ## Project I was involved in as a **Junior Machine Learning Engineer** at Omdena
 &nbsp; 
-
 
 ## Project Title : [Forecasting industrial CO2 using machine learning](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/)
 
@@ -185,13 +193,13 @@ The goal of this project is to develop a machine learning model that can improve
 **Task-- Data collection** We collected the data from [Open Meteo](https://open-meteo.com/en/docs/historical-weather-api) using requests and pandas library. The repo of the data collection can be found in this [subfolder](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task1-collection). Full descrition of the parameters used in the model can be found in the `README.md` file.
 
 **Task-- Exploratory Data Analysis (EDA)**
-was done using descriptive and inferential statistics. `Matplotlib` and `Seaborn` libraries were primarily used for visualization. The notebooks for the EDA can be found [here](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task-2-EDA) in this repo.
+EDA was done using descriptive and inferential statistics. `Matplotlib` and `Seaborn` libraries were primarily used for visualization. The notebooks for the EDA can be found [here](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task-2-EDA) in this repo.
 What specific data analysis/visualization 
 
-**Task-- Model development** using `LSTM`, `Random Forest` and `ARIMAX` to forecast the different meterological parameters. Models of 30 days forecasts were done on the different meterological parameters. `Random Forest` was the best model with an `accuracy up to 92%`. The notebooks can be found [here](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) in this repo.
+**Task-- Model development :** models such as `LSTM`, `Random Forest` and `ARIMAX` were developed to forecast the different meterological parameters. Models of 30 days forecasts were done on the different meterological parameters. `Random Forest` was the best model with an `accuracy up to 92%`. The notebooks can be found [here](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) in this repo.
 
 
-**Task-- model deployment** using Streamlit. The deployment script can be found [here](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/blob/main/src/tasks/task_3_modelling/Modelling_RandomForest.ipynb) in this repo.
+**Task-- model deployment :** The deployment script can be found [here](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/blob/main/src/tasks/task_3_modelling/Modelling_RandomForest.ipynb) in this repo.
 
 
 ## **My Contribution:** 
