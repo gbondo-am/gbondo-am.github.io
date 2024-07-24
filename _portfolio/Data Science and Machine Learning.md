@@ -1,39 +1,34 @@
 ---
 title: "Data Science and Machine Learning"
-excerpt: "This folder holds projects related to Data Science and Machine Learning. The projects implemented are focused on water and environmental domain <br/><img src='/images/arcgisproducts.png'>"
+excerpt: "This folder holds projects related to Data Science and Machine Learning. The projects implemented are focused on water and environmental domain <br><br><br/><img src='/images/arcgisproducts.png'>"
 collection: portfolio
 ---
 
-## Technologies: 
+### Technologies: 
 
 [![My Skills](https://skillicons.dev/icons?i=github,git,py,anaconda,vscode,sklearn,tensorflow,pytorch,docker,windows)](https://skillicons.dev)
 `jupyter, Pandas, cv2, numpy, matplotlib, streamlit, Roboflow, Google Drive, MS Office, DagsHub`
 
 .............................................................................
 
-## Personal Projects
+### Personal Projects
 
-## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
+### Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
 
 <figure>
   <img src="../images/cccp.png" alt="Darmstadt 3D">
   <figcaption>Image source: unsplash.com/@jeisblack</figcaption>
 </figure>
 
-## Project affilation
+**Project affilation**
 This is a final project done in fulfillment of the Data Science 1 course at the faculty of Electrical and Electronics at Technische Universitaet Darmstadt.
 
-## Background
+**Background**
 
-**Objective :** To predict the ambient `electrical energy output (PE)` of a `Combined Cycle Power Plant (CCCP)`
-
-**Societal and Economic benefits:**  Predicting the ambient `electrical energy output (PE)` of a CCCP is essential in measuring the effeciciency of the power plant, in providing energy for the community.
+This project aims to predict the ambient `electrical energy output (PE)` of a `Combined Cycle Power Plant (CCCP)`
+By understanding how different conditions affect energy output, operators can adjust settings and configurations to maintain peak efficiency and help in scheduling maintenance and repairs, and avoid potential disasters from overloading. Towards society, effeciciency of the power plant, ensurs that consistent power is being provided. The Dataset was extracted at [UCI.edu](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant). Features are explained at the next section of the notebook
     
-**The Dataset:** Will be extracted at [UCI.edu](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant). Features are explained at the next section of the notebook
-    
-**Problem statement:** The ambient `electrical energy output (PE)` of a CCCP is essential in regulating a power plant working at full load. This is required to preventing disasters and energy savings."
-
-## Technologies
+**Technologies**
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -43,7 +38,7 @@ This is a final project done in fulfillment of the Data Science 1 course at the 
 
 `Pandas, matplotlib, jupyter`
 
-## Deliverables
+**Deliverables**
 
 The full project workflow and repository can be found [here](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project/blob/main/Gbondo_2331706_Final_project.ipynb)
 
