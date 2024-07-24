@@ -9,23 +9,23 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Augustine's Homepage"
+subtitle                 : "Hydrogeologist / Environmental Engineer"
 title_separator          : "-"
 name                     : &name "Augustine Maada Gbondo"
 description              : &description "personal description"
 url                      : https://gbondo-am.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gbondo-am/gbondo-am.github.io"
-
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Augustine M Gbondo"
+  name             : "Augustine Maada Gbondo"
   pronouns         : # example: "she/her"  
-  bio              : "Hydrogeology/Environmental Engineer"
-  location         : "Giessen,Germany"
+  bio              : "Hydrogeology, Environmental Engineer, Geodata Scientist"
+  location         : "Germany"
   employer         : "Technische Universitaet Darmstadt"
   uri              : # URL
   email            : "gbondomadaar@gmail.com" 
