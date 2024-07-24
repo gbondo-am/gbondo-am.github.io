@@ -35,8 +35,8 @@ By understanding how different conditions affect energy output, operators can ad
     <img src="https://skillicons.dev/icons?i=git,py,anaconda,vscode,sklearn,github,windows" />
   </a>
 </p>
+<p align="center"> `Pandas, matplotlib, jupyter` </p>
 
-`Pandas, matplotlib, jupyter`
 
 **Deliverables**
 
