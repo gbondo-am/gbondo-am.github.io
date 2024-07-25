@@ -13,6 +13,8 @@ collection: /portfolio/
 <em>Image source: unsplash.com/@jeisblack</em>
 </p>
 
+![alt text](../images/cccp.png)
+
 
 **Project affilation**
 This is a final project done in fulfillment of the Data Science 1 course at the *faculty of Electrical and Electronics* at *Technische Universitaet Darmstadt.*
