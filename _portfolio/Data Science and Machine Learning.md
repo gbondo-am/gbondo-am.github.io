@@ -9,7 +9,7 @@ collection: /portfolio/
 ## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
 
 <p align="center">
-<img src="./img/cccp.png" width="100%" />
+<img src="img/cccp.png" width="100%" />
 <em>Image source: unsplash.com/@jeisblack</em>
 </p>
 
