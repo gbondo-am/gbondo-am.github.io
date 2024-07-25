@@ -1,6 +1,6 @@
 ---
-title: "Python automation of workflows"
-excerpt: "This folder holds a collection of tasks using python to automate workflows, or create custom apps to increase workplace efficiency<br/><img src='/images/automate.jpg'>"
+title: "Master's Thesis"
+excerpt: "This folder holds a collection of tasks using python to <em>automate workflows<em/>, or create <em>custom apps<em/> to increase workplace efficiency. <br/><br /><a href='' target='_blank'><img src='/images/factsheet.png'></a>"
 collection: portfolio
 ---
 
@@ -16,20 +16,22 @@ This task is part of the Hessian state radon strategy – which was a radon meas
 
 **Augustine Maada Gbondo** (Script development and database design),  **Tatjana Laupenmühlen** (Template design and database design), **Dr. Heiner Heggemann** (Quality control and supervision), **Dr. Rouwen Lehné** (Quality control and supervision)
 
-#### -- Project Status: First phase completed
+**Project Status: First phase completed**
 
-## Technologies used
+***Technologies used :*** *python, vscode, jupyter, Google Drive, Microsoft Office*
+
+**Deliverables**
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,vscode,windows" />
-  </a>
+<img src="../images/factsheet.png"" width="100%" />
+<em>Screenshot of the factsheet production pipeline</em>
 </p>
 
+>\[!TIP\]
+>**The processing speed of this app is 2 seconds per PDF generation and can process thousands of PDF files**
 
-## Comment
-
-This project includes sensitive data, and the code is now property of HLNUG. Therefore detailed information cannot be disclosed until further notice. 
+**Comment**
+This project includes sensitive data, and the code is property of HLNUG. Therefore detailed information cannot be disclosed until further notice. 
 
 &nbsp; 
 
@@ -39,31 +41,25 @@ This project includes sensitive data, and the code is now property of HLNUG. The
 
 ## Overview
 
-This project was done for [Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG)](https://www.hlnug.de/geologie), to increase productivity during research and literature review od documents by staffs. 
+This project was done for [Hessischen Landesamt für Naturschutz, Umwelt und Geologie (HLNUG)](https://www.hlnug.de/geologie), to increase productivity during research and literature review of documents by staffs. 
 
-Staff at the agency works with documents for literature review, among other tasks. The relevance of the document mostly depends on the frequency of keywords.
+Staff at the agency work with documents for literature review, among other tasks. The relevance of the document mostly depends on the frequency of keywords.
 
-This app will therefore identify relevant documents so that literature reviews can be done at a much faster rate.
+This app will therefore help in identifying relevant documents so that literature reviews can be done at a much faster rate.
 
-#### -- Project Status: Completed
+**Project Status: Completed**
 
-## Technologies used
+**Key technologies used :** *python, vscode, git, github, streamlit*
+
+**Deliverables**
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,vscode,windows" />
-  </a>
+<img src="../images/word-app.jpg"" width="100%" />
+<em>Above is a short description on how the app works</em>
 </p>
 
-## Deliverables
 
-
-*Fig. Below is a short description on how the app works*
-
-![](../images/word-app.jpg)
-
-## Comment
-
+**Comment**
 This project is now property of HLNUG, therefore link to the webapp cannot be disclosed until further notice. 
 
 
@@ -82,4 +78,4 @@ Digital Elevation Models (DEM) are normally downloaded from several provided - t
 
 The project aimed at creating a DEM Downloader app, to automate this process of downloading and clipping the DEM data, to a users exact region of interest.
 
-#### -- Project Status: Ongoing
+**Project Status: Ongoing**

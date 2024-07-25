@@ -1,167 +1,125 @@
 ---
-title: "Digitizing Dominica Map"
-excerpt: " This sub-portfolio includes exercises and coursework done during my Master's training, tutored by the Geoinformation Science Group at Technische Universitaet Darmstadt <br/><img src='/images/500x300.png'>"
+title: "Mapping and modelling with ArcGIS"
+excerpt: "This folder includes GIS projects instructed by the <em> Geoinformation Science Group <em/> at <em>Technische Universitaet Darmstadt<em/>, done during my Master's training <br/><br /><a href='' target='_blank'><img src='/images/Oktober.png'></a>"
 collection: portfolio
 ---
 
-## Project Theme: Digitizing 
-### Project Title : Digitizing the Geology map of Dominica
+## Project Title : Digitizing the Geology map of Dominica
 
-## Overview
+### Background and method
 
-This project aims to digitize the Map of Dominica. Map digitizing is the process of  converting physical maps and other cartographic information into a digital format. Digitize map formats improves data accessibility, fosters enhance and efficient analysis, and acn be integration with other geospatial datasets.
+Digitizing maps is the process of converting physical and other cartographic information into a digital format. Digitize map formats improves data accessibility, fosters enhance and efficient analysis, and can be integrated with other geospatial datasets. 
+In this project we *digitize the Geology map of Dominica*.
 
-## Method
+A picture format of the Dominica Map, was provided by the *Geoinformation Science Group* at *Technische Universiatet Darmstadt*. n/b. Original source of the data is referenced in the final map.
 
-**Data:** The data used for this exercise was a picture format of the Dominica Map, and was provided by the Geoinformation Science Group at Technische Universiatet Darmstadt. Original source of the data is referenced in the final map.
+<p align="center">
+<img src="../images/dominica_raw.jpg"" width="100%" />
+<em>Geology Map of Dominica in picture format</em>
+</p>
 
-<figure>
-  <img src="../images/dominica_raw.jpg" alt="Darmstadt 3D">
-  <figcaption>Geology map of Dominica</figcaption>
-</figure>
-
-### 1. Digitizing the Geology map of Dominica**
-
-### Tools
-
-**ArcMap** Data management, geoprocessing
-  - ESRI Geodatabase
-  - Toolboxes: 
-    - Georeferencing toolbar 
-    - Edit toolbar 
-      - Create features 
-      - Manage edits : Map Topology, Inspect errors
-
-### Workflow
-
-A new ArcMap roject was setup and a Geographic Coordinate System (GCS) was  defined for the map environment.The Dominica map in an image file format was imported. The map was then georeferenced using known control points (know areas that can be located on the map), followed by the creation of a file geodatabase to store feature classes for geology and tectonics as distinct layers.
-
-The *Editor toolbar* in ArcMap was used to digitize the map. Two main digizing methods were used, the Geological units were digitized as `Polygon features`, and the Tectonics were digitized as `line features`. 
-
-The map was then  analyzed using the *Topology* tool in the Edit toolbar for quality control. Finally, a layout was be designed, the digitized map stored in the ESRI geodatabase, and png format exported for printing.
-
-
-### Deliverables
- Fig. n The completed digitized Geology map of Dominica
-
-![](../images/dominica.png)
+The project uses **ArcMap** and its toolboxes for geoprocessing and data management. Feature classes created were stored in the ESRI geodatabase (.gbd). To geoprocess thd data, the georeferencing toolbar was used, features were created with the *Edit toolbar* and quality control was ensured using the *Topology tool* in the *manage edits* toolbar.
 
 
 
-### **2. Calculation of the volume of Dominica**
+***Deliverables**
 
-### Tools
+<p align="center">
+<img src="../images/dominica.png"" width="100%" />
+<em>Digitized Geology map of Dominica</em>
+</p>
 
-**ArcMap** Data management, geoprocessing, spatial analysis
-  - ESRI Geodatabase
-  - Toolboxes: 
-    - Analysis toolbox
-      - Extract toolset
-    - 3D Analyst toolbox
-      - Functional Surface toolset
+### Calculation of the volume of Dominica
 
-### workflow
+Another task we accomplished was to calulate the volume of Dominica. The main aim of this workflow was to acquire the technique of estimating 3D volume of an area of interest - which can be important in evaluating materials moved during mass wasting events.
 
-A DEM of Dominica was used to calculate the volume. The DEM raster was downloaded from opendem.org and cliped (using the *clip* tool in the `Extract toolset`) to the Dominica Area of interest (AOI). The *Surface Volume* tool in the `Functional Surface toolset`was used to calculate the volume. The input data was the clipped Dominica DEM and the reference plane was specified as above sea level. An output table was calculated to store the volume results. The map was then exported into a layout and other information added.
+A DEM of Dominica was used to calculate the volume. The DEM raster was downloaded from opendem.org and cliped to the Dominica Area of interest (AOI). The *Surface Volume* tool in the `Functional Surface toolset`was used to calculate the volume. The input data was the clipped Dominica DEM and the reference plane was specified as above sea level. An output table was calculated to store the volume results. The map was then exported into a layout and other information added.
 
-### Deliverables
+**Tools used :** ESRI Geodatabase, Toolboxes: [Analysis toolbox --> Extract toolset, 3D Analyst toolbox --> Functional Surface toolset]
+
+**Skills developed :** *Data management, geoprocessing, spatial analysis* using ArcMap. 
 
 
-![](../images/dom_vol.jpg)
+**Deliverables**
+
+<p align="center">
+<img src="../images/dom_vol.jpg" width="100%" />
+<em>A picture of the submitted PDF</em>
+</p>
+
 
 &nbsp; 
 
 &nbsp;
 
-## Project Theme: Mudflow 
-### Project Title : Assessing the volume of a landslide using remotely sensed data
+## Project Title : Assessing the volume of a landslide using remotely sensed data [Mudflow]
 
-## Overview
+### Background and method
 
-This project intended to investigate a site with a history of landslides, where proposed dam is planned. Understanding how much material have been moved is crucial in estimating the severity of the landslides, as well as the feasibility of the area for the project.
+This project intended to investigate a site with a history of landslides, where proposed dam is planned. Understanding how much material have been moved is important in estimating the severity of the landslides, as well as the feasibility of the area for the project.
 
+The data used for this exercise were DEM data, Area of interest (AOI) - basis of the mudflow, and SRTM data. The first two data was provided by the Geoinformation Science Group at Technische Universitaet Darmstadt, and the SRTM was downloaded at [Earth Explorer](earthexplorer.usgs.gov)
 
-## Data and Method
+To analyze the potential impact of a planned dam in a landslide-prone area, the first step includes creating a new ArcGIS project and add the relevant dataset. A suitable hillshade was created (using the *hillshade* tool in the `surface toolset`) from the provided DEM data and was clipped to the area of interest (AOI) representing the Mudflow. To create a second raster surface that represents the relocated material, points were digitized (using the *Edit toolbar*) around the AOI. This data was then interpolated (using *Spline* and *IDW* tools in the `Interpolation toolset`) for comparison. 
 
-**Data:** The data used for this exercise were DEM data, Area of interest (AOI) - basis of the mudflow, and SRTM data. The first two data was provided by the Geoinformation Science Group at Technische Universitaet Darmstadt, and the SRTM was downloaded at [Earth Explorer](earthexplorer.usgs.gov)
+The volume of the material was calculated by creating a 1x1m fishnet (using the *create fishnet* tool in the `Sampling toolset`) and assigned values to the attribute table. This process can also be done using  the Math Toolbox or Raster Calculator. The results were verified by repeating the workflow with an SRTM data, to compare the two calculated volumes.
 
-![](../images/mudflow_DEM.png)
+***Deliverables**
 
-## Tools
+<p align="center">
+<img src="../images/mudflow_DEM.png" width="100%" />
+<em>Digital elevation Model (DEM) of the project area. The green feature layer represents moved material from the mudflow event</em>
+</p>
 
-**ArcMap :** Data management, geoprocessing, spatial analysis, modelling
-    - ESRI Geodatabase
-    -  Toolboxes
-      - Edit toolbar
-      - Spatial Analyst toolbox
-        - surface toolset
-        - Interpolation toolset
-        - Data Management toolbox
-          - Sampling toolset
-            - create fishnet
-      - Georeferencing tools, Editing toolbox, Data Management    
-       toolbox (Topology toolset)
+**Tools used :** ESRI Geodatabase, Toolboxes: [Georeferencing tools --> Editing toolbar], [Analysis toolbox --> Extract toolset], [3D Analyst toolbox --> Functional Surface toolset], [Edit toolbar], [Spatial Analyst toolbox; surface toolset, Interpolation toolset, {Data Management toolbox --> Sampling toolset, create fishnet}]
 
-**ArcScene :** 3D visualization
+**Skills developed :** *Data management, geoprocessing, spatial analysis, geostatistics, modelling* using ArcMap.
 
-### Workflow
+***Deliverables**
 
-To analyze the potential impact of a planned dam in a landslide-prone area, the first step includes creating a new ArcGIS project and add the relevant dataset. A suitable hillshade was created (using the *hillshade* tool in the `surface toolset`) using the provided DEM data and was clipped to the area of interest (AOI) which represents the Mudflow. To create a second raster surface that represents the relocated material, points were digitized (using the *Edit toolbar*) around the AOI. This data was then interpolated (using *Spline* and *IDW* tools in the `Interpolation toolset`) for comparison. The volume of the material was calculated by creating a 1x1m fishnet (using the *create fishnet* tool in the `Sampling toolset`) and assigned values to the attribute table. This process can also be done using  the Math Toolbox or Raster Calculator. The results were verified by repeating the workflow with an SRTM data, to compare the two calculated volumes.
+<p align="center">
+<img src="../images/mudflow.png" width="100%" />
+<em>A picture of the submitted PDF</em>
+</p>
 
-## Deliverables
-
-![](../images/mudflow.png)
 
 &nbsp; 
 
 &nbsp;
 
-## Project Theme: Landslide analysis
-### Project Title : Assessing mass movement potentials around Frankfurt on the basis of given parameters
+## Project Title : Assessing mass movement potentials around Frankfurt on the basis of given parameters
 
+**Tools used :** ESRI Geodatabase, Toolboxes: [Spatial analyst toolbox --> surface toolset, extraction toolset], [Data Management toolbox --> Sampling toolset --> create fishnet], [Analysis toolbox --> overlay toolset]
 
 ## Overview
 
-This project intended to model the potential of landslides around Frankfurt area. By modeling potential landslides, potential disasters can be avoides and reduce or eliminate loss of life and damage to properties. GIS methods of landslide hazard assessment are usually done on the basis of given parameters. These parameters include DEM (slope and relief), Geology, Soil, Hydrology, Geomorphology, Landuse etc.
+A landslide is a type of "mass wasting," characterized by any down-slope movement of soil and rock under the direct influence of gravity. By modeling potential landslides, potential disasters can be avoides and reduce or eliminate loss of life and damage to properties. 
 
+This project intended to model the potential of landslides around Frankfurt area. GIS methods of landslide hazard assessment are usually done on the basis of given parameters. These parameters include DEM (slope and relief), Geology, Soil, Hydrology, Geomorphology, Landuse etc.
 
-## Data and method
+The data used for this exercise includes a DEM map (opendem.org), historical landslide map, Suceptible units for landslide and Area of Interest (AOI) polygon, all which were provided by the *Geoinformation group* at *Technische Universitaet Darmstadt.*
 
-**Data:** The data used for this exercise were a DEM map (opendem.org), historical landslide map, Suceptible units for landslide and Area of Interest (AOI) polygon, all which were provided by the Geoinformation group at Technische Universitaet Darmstadt.
+<p align="center">
+<img src="../images/landslide_DEM.png" width="100%" />
+<em>Digital elevation Model of the study area</em>
+</p>
 
-![](../images/landslide_DEM.png)
+The *surface toolset* was used to create several surface information such as slope, aspect, and curvature from the DEM, and this data was added to the Landslide feature class. The geological data (vector format) was reclassified into two classes based on potential for landslide. This data was spatially joined to the landslide data. 
 
-
-## Tools
-
-**ArcMap** Data management, geoprocessing, spatial analysis, modelling
-    - ESRI Geodatabase
-    - Toolboxes: 
-      - Spatial analyst toolbox
-        - Surface toolset
-        - Extraction toolset
-      - Data Management toolbox
-        - Sampling toolset
-          - create fishnet
-      - Analysis toolbox
-        - Overlay toolset
-
-&nbsp;
-
-## Methodology 
-
-A new ArcGIS project was created along with a file geodatabase, this was followed by defining a coordinate reference system to the working environment. 
-
-By using the `surface toolset` in the Spatial analysis toolbox, surface information such as slope, aspect, and curvature from the DEM were created, and this data was added to the Landslide feature class using the *extract multi values to points* tool in the `Extraction toolset`. The geological data (vector format) was reclassified (using the field calculator in the attribute table) into two classes based on potential for landslide and this was also added to the Landslide data using the *spatial join* tool in the `Overlay toolset`. 
-
-To focus on areas being investigated for potential landslides, a fishnet was created (using the *create fishnet* tool in the `Sampling toolset`) to join and limit surface information to susceptible units. 
+To focus on areas being investigated for potential landslides, a fishnet was created to join and limit surface information to susceptible units. 
 
 Additionally, a second potential map using hillshade at different angles was developed, and the areas with potentials were digitize.
 
+***Deliverables**
 
-## Deliverables
+<p align="center">
+<img src="../images/landslide.png" width="100%" />
+<em>Modelled landslide map (left) and Potential landslide map (right) based on our study</em>
+</p>
 
-![](../images/landslide.png)
+
+**Skills developed :** *Data management, geoprocessing, spatial analysis, geostatistics, modelling* using ArcMap.
+
 
 &nbsp; 
 
@@ -169,56 +127,38 @@ Additionally, a second potential map using hillshade at different angles was dev
 
 
 
-## Project Theme: Spatial Analyst
-### Title : Choosing a suitable location for a waste disposal site
+## Project Title : Choosing a suitable location for a waste disposal site using Spatial Analysis
 
 
-## Overview
+**Tools used :** ESRI Geodatabase, Toolboxes: [Conversion Tools --> To Raster], [Spatial Analyst toolbox --> (Reclassify, {Multivariate --> Iso Cluster, Maximum Likelyhood Classification}, {Map Algebra toolset --> Raster calculator}, {Zonal toolset})]
+
+## Background and method
 
 This project intended to choose a suitable site for a waste disposal by taking into account several environmental, financial and social factors. Five areas were proposed for a waste deposit site, and this task aimed at choosing the best site.
 
-## Data and method
+The data used for this exercise were the settlement area, Potential sites for waste disposal, a DEM, digitized geological map, and a georeferenced Google Earth image. These were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.*
 
-**Data:** 
-
-The data used for this exercise were the settlement area, Potential sites for waste disposal, a DEM, digitized geological map, and a georeferenced Google Earth image. These were provided by the Geoinformation Science Group at Technische Universitaet Darmstadt.
-
-*Fig. Georeferenced google earth image of the study area*
-
-![](../images/waste_img.png)
+<p align="center">
+<img src="../images/waste_img.png" width="100%" />
+<em>Satellite imagery of our project area</em>
+</p>
 
 
-## Tools
+Several criteria are predefined in selecting a suitable area. A flat area and suitable geology, should be environmentally (do not affect the biodiversity), it should be far from river or creek to avoid contamination of the water bodies, and also have good connection to the settlement. 
 
-**ArcMap** Data management, geoprocessing, spatial analysis, modelling
-  - Toolboxes: 
-    - Conversion Tools 
-      - To Raster 
-    - Spatial Analyst toolbox
-      - Reclassify
-      - Multivariate
-        - Iso Cluster
-        - Maximum Likelyhood Classification
-      - Map Algebra toolset
-        - Raster calculator
-      - Zonal toolset
+A new project was setup with ArcMap and a coordinate reference system for the working environment was defined. The data provided was imported, vector files were rasterized, and later standardized using suitable calculations. The *topography* was determined by calculating a standardized form of the slope. The *geology map* was rasterized (using the *Polygon to Raster* tool in the `To Raster` toolset ) and reclassified using the *Reclassify* tool into two classes. By using the *Iso Cluster* tool and *Maximum Likelyhood Classification* tool, the Google Earth image was also classified into two categories to distinguish the forest areas (Greenery)  from other areas. Proxies and indicators of river and streams were also determined and used as input parameters. 
 
-## Methodology
+After the initial data processing, the suitability map was calculated using the *Raster calculator* tool. This tool uses a weighted input of the relevant parameters to model a suitable site for waste disposal. *Zonal statistics* was then applied to rank the suitability of the different sites based on the model results.
 
-Several criteria are predefined in selecting a suitable area. A flat area and suitable geology, should be environmentally (do not affect the biodiversity), it should be far from river or creek to avoid contamination of the water bodies, and good connection to the settlement. 
-
-To start, a new project was setup with ArcMap. The data provided was imported, and vector files were rasterized, and later standardized using suitable calculations. The topography was determined by calculating a standardized form of the slope, the geology map was rasterized (using the *Polygon to Raster* tool in the `To Raster` toolset ) and reclassified (using the *Reclassify* tool in the `Reclass Toolset`) into two classes. the Google Earth image was also classified into two categories to distinguish the forest areas (Greenery)  from other areas. This was done using the *Iso Cluster* tool to create a signature file and *Maximum Likelyhood Classification* tool for classification. Proxies and indicators of river and streams were also determined and used as input parameters. 
-
-After the initial data processing, the suitability map was calculated using the *Raster calculator* tool in the `Map Algebra toolset` toolset. This tool uses a weighted input of the relevant parameters to model a suitable site for waste disposal. *Zonal statistics tool* in the `zonal toolset` were then applied to rank the suitability of the different sites based on the model results.
-
-Two additional maps were created by changing the weights to get the perspective of an Ecologist (gives high priority to Ecology and Biodiversity) and Politician (priority to reduce cost i.e distance to site)
+Two additional maps were created by changing the weights to get the perspective of an *Ecologist* (gives high priority to Ecology and Biodiversity) and *Politician* (priority to reduce cost i.e distance to site)
 
 
-## Deliverables
+**Deliverables**
 
-*Fig n. The image below shows three maps modelled using different weights of the input parameters the suitability was ranked 1 to 6 with 1 - representing a suitable site and 6 - representing a less suitable site*
-
-![](../images/waste.png)
+<p align="center">
+<img src="../images/waste.png" width="100%" />
+<em>The image below shows three maps modelled using different weights of the input parameters the suitability was ranked 1 to 6 with 1 - representing a suitable site and 6 - representing a less suitable site</em>
+</p>
 
 
 **Comments**
@@ -231,66 +171,47 @@ Two additional maps were created by changing the weights to get the perspective 
 
 
 
-## Project Theme: Groundwater Mapping
 ### Project Title : A 3D WebScene including hydrological and geological information
 
 
-## Overview
+**Tools used :** ESRI Geodatabase, Toolboxes: [GeologicToolbox a custom developed toolbox *Schmidt et. al (2017)* to import the sGrids], [Spatial Analyst toolbox --> ({Interpolation toolset --> IDW}, {Surface toolset --> Contour})]
+**ArcScene** for 3D Visualization, **ArcGIS Online** for webmapping, **WebScene** for 3D Visualization online. 
 
-This project was designed to work with SKUA GOCAD S-GRID data in ArcGIS Pro, and add a 2D basemap as a 3D geological data to ArcScene. The second part of the exercise include groundwater contouring using groundwater heads data, which was also added to the webscene.  
+## Background and method
 
-## Method
-Summary of the data used and method is described below
+This project was designed to work with SKUA GOCAD SGrids data in ArcGIS Pro, and add a 2D basemap as a 3D geological data to ArcScene. The second part of the exercise include groundwater contouring using groundwater heads data, which was also added to the webscene.  
 
-### Data
+*SGrids:* also referred to as Structured grids, are a type of data structure popular in geosciences. It is used to represent spatial data - particulary structures that varies continously over space. these were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.* 
 
-**SGrids:** also referred to as Structured grids, are a type of data structure popular in geosciences. It is used to represent spatial data - particulary structures that varies continously over space. these were provided by the Geoinformation Science Group at Technische Universitaet Darmstadt. 
-
-<figure>
-  <img src="../images/Darmstadt_sgrid.png" alt="Darmstadt 3D">
-  <figcaption>sGrid of Darmstadt viewed in ArcScene</figcaption>
-</figure>
-
-**Groundwater level data:** Data of groundwater heads was retrieved from GruSchu (http://gruschu.hessen.de) -  the specialized information system for groundwater and drinking water protection for the federal state of Hesse. It is governed by the Hessian Agency for Nature Conservation, Environment and Geology (www.hlnug.de).
+<p align="center">
+<img src="../images/Darmstadt_sgrid.png" width="100%" />
+<em>sGrid representing some of the geological units in Darmstadt, as viewed in ArcScene</em>
+</p>
 
 
-## Tools 
-
-**ArcGIS Pro** Data management, geoprocessing, spatial analysis
-  - GeologicToolbox - a custom developed toolbox *Schmidt et. al (2017)*
-  - Spatial Analyst toolbox 
-    - Interpolation toolset
-      - IDW  (inverse distance weighting)
-    - Surface toolset 
-      - Contour
-
-**ArcScene** 3D Visualization
-
-**ArcGIS Online** Webmap pulishing online
-
-**WebScene** 3D Visualization online
+*Groundwater level data:* Data of groundwater heads was retrieved from GruSchu (http://gruschu.hessen.de) -  the specialized information system for groundwater and drinking water protection for the federal state of Hesse. It is governed by the Hessian Agency for Nature Conservation, Environment and Geology (www.hlnug.de).
 
 
 
-## Methodology 
+### Methodology 
 
-The SKUA-GOCAD data was imported into ArcGIS Pro using a custom toolbox (*GeologicToolbox* by Schmidt et. al (2017)), and then published to ArcScene. 
+The SKUA-GOCAD data was imported into ArcGIS Pro using the (*GeologicToolbox*), and then coordinate reference system was then reprojected. These layers were then published to ArcScene. 
 
-Groundwater level data for two months, April and October were interpolated (using *IDW* method), and contours (using the *Countour tool* in the `surface toolset`) were created for each month. The created  contours and other layers were then published in ArcScene.
+Groundwater level data for two months, April and October were interpolated (using *IDW* method), and contours using the *Countour tool*  for each month. The created  contours and other layers were then published in ArcScene.
 
 
 ## Deliverables
 
 ### Groundwater contour map
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Gbondo_FH_GISII_2021" src="//tu-darmstadt.maps.arcgis.com/apps/Embed/index.html?webmap=f8a1c6c04c114872b3c091690f34079a&extent=8.3885,49.7825,9.0332,49.9816&zoom=true&previewImage=true&scale=true&legendlayers=true&disable_scroll=true&theme=light"></iframe></div>
+
 
 &nbsp; 
 
 
 ## Comments/Future works
 
-Does the type of interpolation method use affect the spatial model od groundwater heads in the project area?
+Does the type of interpolation method use affect the spatial model of groundwater heads in the project area?
 
   - Test different interpolation methods e.g Kriging, IDW, Spline etc.
   - Develop a semi-variogram for kriging method
