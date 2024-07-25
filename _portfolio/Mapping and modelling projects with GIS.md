@@ -14,7 +14,7 @@ In this project we *digitize the Geology map of Dominica*.
 A picture format of the Dominica Map, was provided by the *Geoinformation Science Group* at *Technische Universiatet Darmstadt*. n/b. Original source of the data is referenced in the final map.
 
 <p align="center">
-<img src="../images/dominica_raw.jpg"" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dominica_raw.jpg"" width="100%" />
 <em>Geology Map of Dominica in picture format</em>
 </p>
 
@@ -25,7 +25,7 @@ The project uses **ArcMap** and its toolboxes for geoprocessing and data managem
 ***Deliverables**
 
 <p align="center">
-<img src="../images/dominica.png"" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dominica.png"" width="100%" />
 <em>Digitized Geology map of Dominica</em>
 </p>
 
@@ -43,7 +43,7 @@ A DEM of Dominica was used to calculate the volume. The DEM raster was downloade
 **Deliverables**
 
 <p align="center">
-<img src="../images/dom_vol.jpg" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dom_vol.jpg" width="100%" />
 <em>A picture of the submitted PDF</em>
 </p>
 
@@ -67,7 +67,7 @@ The volume of the material was calculated by creating a 1x1m fishnet (using the 
 ***Deliverables**
 
 <p align="center">
-<img src="../images/mudflow_DEM.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/mudflow_DEM.png" width="100%" />
 <em>Digital elevation Model (DEM) of the project area. The green feature layer represents moved material from the mudflow event</em>
 </p>
 
@@ -78,7 +78,7 @@ The volume of the material was calculated by creating a 1x1m fishnet (using the 
 ***Deliverables**
 
 <p align="center">
-<img src="../images/mudflow.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/mudflow.png" width="100%" />
 <em>A picture of the submitted PDF</em>
 </p>
 
@@ -100,7 +100,7 @@ This project intended to model the potential of landslides around Frankfurt area
 The data used for this exercise includes a DEM map (opendem.org), historical landslide map, Suceptible units for landslide and Area of Interest (AOI) polygon, all which were provided by the *Geoinformation group* at *Technische Universitaet Darmstadt.*
 
 <p align="center">
-<img src="../images/landslide_DEM.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/landslide_DEM.png" width="100%" />
 <em>Digital elevation Model of the study area</em>
 </p>
 
@@ -113,7 +113,7 @@ Additionally, a second potential map using hillshade at different angles was dev
 ***Deliverables**
 
 <p align="center">
-<img src="../images/landslide.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/landslide.png" width="100%" />
 <em>Modelled landslide map (left) and Potential landslide map (right) based on our study</em>
 </p>
 
@@ -139,7 +139,7 @@ This project intended to choose a suitable site for a waste disposal by taking i
 The data used for this exercise were the settlement area, Potential sites for waste disposal, a DEM, digitized geological map, and a georeferenced Google Earth image. These were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.*
 
 <p align="center">
-<img src="../images/waste_img.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/waste_img.png" width="100%" />
 <em>Satellite imagery of our project area</em>
 </p>
 
@@ -156,7 +156,7 @@ Two additional maps were created by changing the weights to get the perspective 
 **Deliverables**
 
 <p align="center">
-<img src="../images/waste.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/waste.png" width="100%" />
 <em>The image below shows three maps modelled using different weights of the input parameters the suitability was ranked 1 to 6 with 1 - representing a suitable site and 6 - representing a less suitable site</em>
 </p>
 
@@ -184,7 +184,7 @@ This project was designed to work with SKUA GOCAD SGrids data in ArcGIS Pro, and
 *SGrids:* also referred to as Structured grids, are a type of data structure popular in geosciences. It is used to represent spatial data - particulary structures that varies continously over space. these were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.* 
 
 <p align="center">
-<img src="../images/Darmstadt_sgrid.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/Darmstadt_sgrid.png" width="100%" />
 <em>sGrid representing some of the geological units in Darmstadt, as viewed in ArcScene</em>
 </p>
 
