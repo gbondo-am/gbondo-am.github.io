@@ -13,7 +13,7 @@ collection: /portfolio/
 <em>Image source: unsplash.com/@jeisblack</em>
 </p>
 
-![alt text](../images/cccp.png)
+![alt text](/images/cccp.png)
 
 
 **Project affilation**
