@@ -23,7 +23,7 @@ The Area of Interest (AOI) was classified into four land use classes (Water, Veg
 **
 
 <p align="center">
-<img src="../images/LULC_raqqa.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/LULC_raqqa.png" width="100%" />
 <em>Land use land cover mapping of Raqqa using CART, and Random Forest supervised classification techniques</em>
 </p>
 
@@ -64,7 +64,7 @@ Details of the map layers and the interface can be accessed below.
 **Layer description**
 
 <p align="center">
-<img src="../images/htw.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/htw.png" width="100%" />
 <em>A short description of how to use the webmap below, and definitions of each layer - as described in the publication</em>
 </p>
 
