@@ -1,5 +1,5 @@
 ---
-title: "Master's Thesis"
+title: "Python automation projects"
 excerpt: "This folder holds a collection of tasks using python to <em>automate workflows<em/>, or create <em>custom apps<em/> to increase workplace efficiency. <br/><br /><a href='' target='_blank'><img src='/images/factsheet.png'></a>"
 collection: portfolio
 ---
