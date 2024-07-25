@@ -49,7 +49,7 @@ This dashboard was created using the WASH Baseline study (2016) in Sierra Leone.
 >[**The dashboard can be accessed HERE**](https://africageoportal.maps.arcgis.com/apps/dashboards/912c78bb3e644e31a9976f847a4fd51a)
 
 <p align="center">
-<img src="../images/dashboard.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dashboard.png" width="100%" />
 <em>Sierra Leone water point survey dashboard</em>
 </p>
 
