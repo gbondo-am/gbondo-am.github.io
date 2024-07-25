@@ -1,10 +1,15 @@
 ---
+<<<<<<< Updated upstream
 title: "Python automation projects"
+=======
+title: "Automation with python"
+>>>>>>> Stashed changes
 excerpt: "This folder holds a collection of tasks using python to <em>automate workflows<em/>, or create <em>custom apps<em/> to increase workplace efficiency. <br/><br /><a href='' target='_blank'><img src='/images/factsheet.png'></a>"
 collection: portfolio
 ---
 
 # Project Title : Automating the process of factsheet generation using python (**autofactsheet**)
+
 
 ## Overview
 

@@ -43,8 +43,13 @@ A DEM of Dominica was used to calculate the volume. The DEM raster was downloade
 **Deliverables**
 
 <p align="center">
+<<<<<<< Updated upstream
 <img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dom_vol.jpg" width="100%" />
 <em>A picture of the submitted PDF</em>
+=======
+<img src="../images/dom_vol.jpg" width="100%" />
+<em>submitted PDF report</em>
+>>>>>>> Stashed changes
 </p>
 
 
