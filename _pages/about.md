@@ -21,31 +21,31 @@ I am environmental professional with a Geoscience background. Since 2014, I have
 
 Professionally involved in the water sector since 2017 as a Supervision Consultant, I developed technical and administrative skills through surveys, design, and supervision of water points such as borewells, mini dams, rainwater harvesting schemes, and liaising with stakeholders. During my Master's training, I acquired theoretical knowledge in water management, and practical works in water chemistry, sampling and modeling.
 
-  ***Tools :*** *Hydrus, SWMM, AQTESOLV, MODFLOW-Model Muse, PHREEQC, and SWAT*
+  *Tools : Hydrus, SWMM, AQTESOLV, MODFLOW-Model Muse, PHREEQC, and SWAT*
 
 **Geoscience and GIS**
 
 A background in Geoscience, equpped me with an understanding of geological and hydrogeological systems. Therefore, I am capable of handling geological and hydrogeological data, and use appropriate tools either for geostatistical analysis or modelling. 
 
-  ***Tools :*** *GOCAD/SKUA and GeoDin (beginner), Google Earth Engiene, ArcGIS Products (ArcGISPro, ArcGIS Online, Survey123, Dashboards, and StoryMaps)*
+  *Tools :GOCAD/SKUA and GeoDin (beginner), Google Earth Engiene, ArcGIS Products (ArcGISPro, ArcGIS Online, Survey123, Dashboards, and StoryMaps)*
 
 **Programming and Data Science**
 
 Experienced in Python programming and Data Science, having led, or collaborated projects in water, environmental, and geoscience tasks. I have varying experience in developing and deploying machine learning and deep learning models for prediction, forecasting, and image detection tasks, either for Industry or for research. I am also skilled in creating PDF **automation scripts**, data cleaning scripts, and custom Streamlit apps to increase efficiency.
 
-  ***Tools :*** *SciKit-Learn, Tensoflow/Keras, GeoServer and Leaflet, PostgreSQL/PostGIS*
+  *Tools : SciKit-Learn, Tensoflow/Keras, GeoServer and Leaflet, PostgreSQL/PostGIS*
 
 
 **Personal Interests**
 
-    Outside of my professional work, I code for fun, watch Football and go to the gym.
+Outside of my professional work, I code for fun, watch Football and go to the gym.
 
 
-  For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/). and my  [curriculum vitae](https://gbondo-am.github.io/cv/)
+For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/). and my  [curriculum vitae](https://gbondo-am.github.io/cv/)
 
 -------------------------------------------------------------
 **Contact**
 
-    I am open to opportunities for collaborations. Feel free to reach out to me via my contacts at the side bar of this page.
+I am open to opportunities for collaborations. Feel free to reach out to me via my contacts at the side bar of this page.
 
-    Thank you for visiting my page!
+Thank you for visiting my page!

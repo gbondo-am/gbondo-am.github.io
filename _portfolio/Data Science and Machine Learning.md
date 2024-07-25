@@ -1,7 +1,7 @@
 ---
 title: "Data Science and Machine Learning"
 excerpt: "This folder is a collection of projects that leverages Data Science and Machine Learning to solve real world problems.<br/><img src='/images/dashboard.png'>"
-collection: portfolio
+collection: /portfolio/
 ---
 
 # Personal Projects
