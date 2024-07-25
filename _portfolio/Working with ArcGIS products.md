@@ -15,7 +15,7 @@ This survey sheet was developed to learn the functionality of the ArcGIS Survey1
 
 
 <p align="center">
-<img src="../images/wplink.png" width="100%" />You can also scan the QR code with your phone
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/wplink.png" width="100%" />You can also scan the QR code with your phone
 </p>
 
 
