@@ -62,13 +62,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Robert Zupko II"
-  avatar           : "profile.JPG"
-  bio              : "Software engineering, data science, and geographic information systems"
+  name             : "Augustine Maada Gbondo"
+  avatar           : "profile.jpg"
+  bio              : "Hydrogeologist, Environmental Engineer, GeoData Scientist"
   location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=fA9MOeIAAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=fA9MOeIAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Augustine-Gbondo-2"
   uri              :
