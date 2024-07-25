@@ -23,7 +23,7 @@ This task is part of the Hessian state radon strategy – which was a radon meas
 **Deliverables**
 
 <p align="center">
-<img src="../../images/factsheet.png"" width="100%" />
+<img src="../images/factsheet.png"" width="100%" />
 <em>Screenshot of the factsheet production pipeline</em>
 </p>
 
@@ -54,7 +54,7 @@ This app will therefore help in identifying relevant documents so that literatur
 **Deliverables**
 
 <p align="center">
-<img src="/images/word-app.jpg"" width="100%" />
+<img src="../images/word-app.jpg"" width="100%" />
 <em>Above is a short description on how the app works</em>
 </p>
 
