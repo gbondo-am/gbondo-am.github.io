@@ -1,30 +1,37 @@
 ---
 title: "Geospatial programming"
-excerpt: " This folder includes projects and solutions developed using programming tools. Tools used are `Google Earth Engiene` for LULC classification, `html,css and Javascript` for web mapping, `Python` and associated libraries for processing and visualization tasks, and `PostGRE-SQL/PostGIS` for database design and management. <br/><img src='/images/gisp.png'>"
+excerpt: " This folder includes projects and solutions developed using programming tools. Tools used are *Google Earth Engiene* for LULC classification, *html,css and Javascript* for web mapping, *Python* and associated libraries for processing and visualization tasks, and *PostGRE-SQL/PostGIS* for database design and management. 
+<br/><br /><a href='' target='_blank'><img src='/images/gisp.png'></a>"
 collection: portfolio
 ---
 
-## Project Title : Land Use Land cover classification of Ar-Raqqa, Syria.
+# Project Title : Land Use Land cover classification of Ar-Raqqa, Syria.
 
-#### -- Project Status: Completed
+**Project Status: Completed**
 
 ## Overview
 
 This project was built on the [Frei-Universitaet Berlin GEO-IT coursework](https://www.geo.fu-berlin.de/en/v/geo-it/gee/3-classification/3-2-classification-gee/index.html). The main aim is using geospatial technologies for environmental monitoring and assessment. Remote sensing data and machine learning algorithms within Google Earth Engine were used to classify land cover in Ar-Raqqa, Syria. A land surface temperature (LST) layer was also overlaid on the map, to visualize the spatial variability of Temperature.
+
+**Key technologies and skills :** *Javascript, Google Earth Engine (GEE)*
 
 
 ## Method
 
 The Area of Interest (AOI) was classified into four land use classes (Water, Vegetation, Urban and barren) by creating training classes from point geometry. Two models (CART model and Random Forest Model) were compared in terms of accuracy socre. The final results of the classification showed that the Random Forest model had a 90% accuracy, while the CART model with a 86% accuracy.
 
-*Land use land cover mapping of Raqqa using CART and Random Forest supervised classification techniques*
+**
 
-![](/images/LULC_raqqa.png)
+<p align="center">
+<img src="../images/LULC_raqqa.png" width="100%" />
+<em>Land use land cover mapping of Raqqa using CART, and Random Forest supervised classification techniques</em>
+</p>
+
 
 [The Google Earth Engiene code can be found here](https://code.earthengine.google.com/bef2edae1acc57fa74b8fe72e0083e27) 
 
 **Comments/Future works**
-- Does the accuracy of the classification change based on classification algorithm used, and/or based on Technology used?
+- Investigate if the accuracy of the classification change based on classification algorithm used, and/or based on Technology used?
 - Is there a relationship between the LULC and Temperature change over time?
 
 &nbsp; 
@@ -36,33 +43,36 @@ The Area of Interest (AOI) was classified into four land use classes (Water, Veg
 
 ### [Link to research paper](https://www.sciencedirect.com/science/article/pii/S0012825224001867)
 
-## Tools
-leaflet
+**Key technologies and skills :** *python *html, leaflet.js and css*
 
 ## Overview
-This project was done to ensure better visualizations of the maps in my publication. In the publication, the map uses the three digit ISO country codes, which can be difficult for readers without geographical knowledge to easily decipher. Therefore, with this interactive 
+
+During [our publication](https://www.sciencedirect.com/science/article/pii/S0012825224001867), we created several maps and charts to better present our results. One such representation was the creation of several maps with ISO-3DIGIT codes of countries, to represent each country and associated data. Although this was a professional way of presenting our results, some readers may struggle to decipher these geographical codes. 
+
+This project was done (unofficially) to ensure better visualizations of the maps in the publication. An interactive webmap with country names, ISO-3DIGIT codes and the statistics for each country and layer will be created.
 
 ## Summary of method
 
-**Data Transformation :** The data was in the form of a shapefile, and this was transformed to geojson file (compartible for web maping services) using `python programming`. 
+**Data Transformation :** The data required transformation from a *shapefile* to a *geojson* file (compartible for web maping services). A [python script](https://github.com/Madaar49/Authorship-patterns-groundwater-africa/blob/main/geojson_generation.py) was developed to automate this conversion.
 
-**Webmap development :** To develop the web map, `html`, leaflet `Javascript` and `css` were used. The aim was to depoly all relevant layers on the map with a responsive popup, and each with their own legend. This was made possible by creating functions in leaflet `Javascript` and conditional statements passed on based on layer. More information can be found in the [github repository](https://github.com/Madaar49/Authorship-patterns-groundwater-africa)
+**Webmap development :** To develop the web map, *html, leaflet.js and css* were used. The aim was to depoly all relevant layers on the map with a responsive popup, and each with their own legend. This was made possible by creating functions in the *leaflet.js* script and conditional statements based on layer. More information can be found in the [github repository](https://github.com/Madaar49/Authorship-patterns-groundwater-africa)
 
 
 ## Map
 Details of the map layers and the interface can be accessed below.
 
-### Layer description
+**Layer description**
 
-<figure>
-  <img src="../images/htw.png" alt="Darmstadt 3D">
-  <figcaption></figcaption>
-</figure>
+<p align="center">
+<img src="../images/htw.png" width="100%" />
+<em>A short description of how to use the webmap below, and definitions of each layer - as described in the publication</em>
+</p>
+
 
 ### webmap Interface
 
 <iframe src="https://madaar49.github.io/Authorship-patterns-groundwater-africa/
-" height="500" width="1000"></iframe>
+" height="500" width="700"></iframe>
 
 &nbsp; 
 
@@ -71,7 +81,6 @@ Details of the map layers and the interface can be accessed below.
 
 ## Project Title : Development of a relational database management system for my personal projects.
 
-## Tools : 
-`PostgreSQL/PostGIS`, `ESRI Database`, `SQL-Alchemy`, `TimescaleDB`,  
+**Key technology and skills** *Tools, PostgreSQL/PostGIS, ESRI Database, SQL-Alchemy, TimescaleDB*
 
 

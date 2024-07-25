@@ -1,6 +1,6 @@
 ---
 title: "Mapping and modelling with ArcGIS"
-excerpt: "This folder includes GIS projects instructed by the <em> Geoinformation Science Group <em/> at <em>Technische Universitaet Darmstadt<em/>, done during my Master's training <br/><br /><a href='' target='_blank'><img src='/images/Oktober.png'></a>"
+excerpt: "This folder includes GIS projects instructed by the <em> Geoinformation Science Group <em/> at <em>Technische Universitaet Darmstadt, <em/> done during my Master's training <br/><br /><a href='' target='_blank'><img src='/images/Oktober.png'></a>"
 collection: portfolio
 ---
 

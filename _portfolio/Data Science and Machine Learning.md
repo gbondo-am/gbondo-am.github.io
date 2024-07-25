@@ -1,9 +1,9 @@
 ---
 title: "Data Science and Machine Learning"
-excerpt: "This folder is a collection of projects that leverages Data Science and Machine Learning to solve real world problems.<br/><img src='/images/dashboard.png'>"
+excerpt: "This folder is a collection of projects that leverages Data Science and Machine Learning to solve real world problems.<br/><img src='/images/ml.png'><em>Image source: https://www.turing.com
+</em>"
 collection: /portfolio/
 ---
-
 # Personal Projects
 
 ## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)

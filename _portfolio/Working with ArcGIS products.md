@@ -13,10 +13,9 @@ This survey sheet was developed to learn the functionality of the ArcGIS Survey1
 
 [The survey form can be accessed HERE](https://survey123.arcgis.com/share/93d85fcf505744e9bd100ee8170b71f1)
 
-*You can also scan the QR code with your phone.*
 
 <p align="center">
-<img src="../images/wplink.png" width="60%" />
+<img src="../images/wplink.png" width="100%" />You can also scan the QR code with your phone
 </p>
 
 
@@ -24,7 +23,7 @@ This survey sheet was developed to learn the functionality of the ArcGIS Survey1
 
 ### App: ArcGIS Online
 
-Below is the Webmap interface showing the live results of the survey.
+Below is the webmap interface showing the live results of the survey.
 
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Water point survey results from Survey123" src="//africageoportal.maps.arcgis.com/apps/Embed/index.html?webmap=9316d44fa3734e73ad9b1da4e03e1320&extent=-11.0635,8.6116,-10.8614,8.6769&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
 
