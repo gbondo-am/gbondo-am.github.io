@@ -27,9 +27,8 @@ This project aims to predict the `ambient electrical energy output (PE)` of a `C
 
 **Deliverables :**  The full project workflow and repository can be found [here](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project/blob/main/Gbondo_2331706_Final_project.ipynb)
 
-
 <p align="center">
-<img src="../images/ds1.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/ds1.png" width="100%" />
 <em>Results from the ridge regression model with a prediction accuracy of 92%</em>
 </p>
 
@@ -48,7 +47,7 @@ Projects I was involved in as a **Junior Machine Learning Engineer** at Omdena
 ## Project Title : [Forecasting industrial CO2 using machine learning](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/)
 
 <p align="center">
-<img src="../images/co2.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/co2.png" width="100%" />
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -85,7 +84,7 @@ Due to the nature of OMDENA projects, the working packages (tasks) are usually s
 ## Project Title : [Advanced weather forecasting with machine learning and python](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction)
 
 <p align="center">
-<img src="../images/pakistan.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/pakistan.png" width="100%" />
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -124,7 +123,7 @@ The **Task group-- Data collection** collected the data from [Open Meteo](https:
 ## Project Title : [Detecting microorganisms in water with deep learning](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms)
 
 <p align="center">
-<img src="../images/micro.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/micro.png" width="100%" />
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -161,7 +160,7 @@ The project blog can be found [here](https://www.omdena.com/blog/safeguard-publi
 ## Project Title : [Flood Guard: Integration of precipitation time series and GIS data for flood forecast in Bangladesh](https://dagshub.com/Omdena/BangladeshChapter_FloodGuard)
 
 <p align="center">
-<img src="../images/flood.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/flood.png" width="100%" />
 <em>Image source: OMDENA.com</em>
 </p>
 
