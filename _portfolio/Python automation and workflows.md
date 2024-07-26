@@ -1,9 +1,5 @@
 ---
-<<<<<<< Updated upstream
-title: "Python automation projects"
-=======
 title: "Automation with python"
->>>>>>> Stashed changes
 excerpt: "This folder holds a collection of tasks using python to <em>automate workflows<em/>, or create <em>custom apps<em/> to increase workplace efficiency. <br/><br /><a href='' target='_blank'><img src='/images/factsheet.png'></a>"
 collection: portfolio
 ---
@@ -27,8 +23,9 @@ This task is part of the Hessian state radon strategy – which was a radon meas
 
 **Deliverables**
 
+![alt text](/images/factsheet.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/factsheet.png"" width="100%" />
 <em>Screenshot of the factsheet production pipeline</em>
 </p>
 
@@ -58,11 +55,12 @@ This app will therefore help in identifying relevant documents so that literatur
 
 **Deliverables**
 
-<p align="center">
-<img src="../images/word-app.jpg"" width="100%" />
-<em>Above is a short description on how the app works</em>
-</p>
 
+![alt text](/images/word-app.jpg)
+</p>
+<p align="center">
+<em>A short description of how the app works</em>
+</p>
 
 **Comment**
 This project is now property of HLNUG, therefore link to the webapp cannot be disclosed until further notice. 
@@ -79,7 +77,7 @@ This project is now property of HLNUG, therefore link to the webapp cannot be di
 
 ## Overview
 
-Digital Elevation Models (DEM) are normally downloaded from several provided - the most common is the [Earth Explorer](https://earthexplorer.usgs.gov). One challenge faced with acquiring this data is that, the data is in the form of tiles and if a project area falls on different tiles, then a user must download all the tiles and perform some preprocessing functions (Clip and fill).
+Digital Elevation Models (DEM) are normally downloaded from several provided - the most common is the [Earth Explorer](https://earthexplorer.usgs.gov). One challenge faced with acquiring this data is that, the data is in the form of tiles and if a project area falls on different tiles, then a user must download all the tiles and perform some preprocessing functions (*clip* and *fill*).
 
 The project aimed at creating a DEM Downloader app, to automate this process of downloading and clipping the DEM data, to a users exact region of interest.
 

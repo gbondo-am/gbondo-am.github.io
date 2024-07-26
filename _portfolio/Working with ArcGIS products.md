@@ -11,13 +11,14 @@ collection: portfolio
 
 This survey sheet was developed to learn the functionality of the ArcGIS Survey123 app. The survey sheet was a conceptual project for a rural water point rehabilitation project in Kono District. The aim is to gather participants information about the location and functionality of water points, which will serve as a first step for the Government to understand the status of water points in the district.
 
-[The survey form can be accessed HERE](https://survey123.arcgis.com/share/93d85fcf505744e9bd100ee8170b71f1)
+### [The survey form can be accessed HERE](https://survey123.arcgis.com/share/93d85fcf505744e9bd100ee8170b71f1)
 
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/wplink.png" width="100%" />You can also scan the QR code with your phone
+![alt text](/images/wplink.png)
 </p>
-
+<p align="center">
+<em>You can also scan the QR code with your phone</em>
+</p>
 
 &nbsp; 
 
@@ -47,10 +48,13 @@ This dashboard was created using the WASH Baseline study (2016) in Sierra Leone.
 
 >\[!TIP\]
 >[**The dashboard can be accessed HERE**](https://africageoportal.maps.arcgis.com/apps/dashboards/912c78bb3e644e31a9976f847a4fd51a)
+>
+>[**Instructions on how to use the dashboatrd can be accessed HERE**](https://github.com/Madaar49/WASH-survey-Data-Analysis-needs-assessment-/blob/main/how-to-use.md)
 
+
+![alt text](/images/dashboard.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dashboard.png" width="100%" />
 <em>Sierra Leone water point survey dashboard</em>
 </p>
-
 

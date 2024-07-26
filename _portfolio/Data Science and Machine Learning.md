@@ -6,15 +6,13 @@ collection: /portfolio/
 ---
 # Personal Projects
 
-## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
+## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project) [**Prediction**]
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/master/cccp.png" width="100%" />
-<em>Image source: unsplash.com/@jeisblack</em>
-</p>
 
 ![alt text](/images/cccp.png)
-
+<p align="center">
+<em>Image source: unsplash.com/@jeisblack</em>
+</p>
 
 **Project affilation**
 This is a final project done in fulfillment of the Data Science 1 course at the *faculty of Electrical and Electronics* at *Technische Universitaet Darmstadt.*
@@ -29,11 +27,6 @@ This project aims to predict the *ambient electrical energy output (PE)* of a *C
 
 **Deliverables :**  The full project workflow and repository can be found [here](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project/blob/main/Gbondo_2331706_Final_project.ipynb)
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/master/images/ds1.png" width="100%" />
-<img src="./img/ds1.png" width="100%" />
-<em>Results from the ridge regression model with a prediction accuracy of 92%</em>
-</p>
 
 ![alt text](/images/ds1.png)
 <p align="center">
@@ -53,13 +46,8 @@ Projects I was involved in as a **Junior Machine Learning Engineer** at Omdena
 
 &nbsp; 
 
-## Project Title : [Forecasting industrial CO2 using machine learning](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/)
+## Project Title : [Forecasting industrial CO2 using machine learning](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/) [**Time series Forecasting**]
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/co2.png" width="100%" />
-<img src="./img/co2.png" width="100%" />
-<em>Image source: OMDENA.com</em>
-</p>
 
 ![alt text](/images/co2.png)
 <p align="center">
@@ -85,7 +73,7 @@ This project leverages machine learning (ML) techniques to predict and evaluate 
 
 Due to the nature of OMDENA projects, the working packages (tasks) are usually seperated into several groups.[**Task group-- Data**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task1-data) was responsible for finding suitable data for the project. The best data for our project was the OWID dataset. Data exploration was done and can be found. The [**Task group-- Experimental Models**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) developed several models  to test for their performance and suitability  for the project. The notebooks for the experimental models can be found in the group repository. The [**Task group-- Model development**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) developed several models, two notably were *LSTM* and *Arima* on the OWID dataset. The [**Task-- model deployment**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task-3-deployment-presentation) used streamlit for model deployment.
 
-**My Contributions :** I was part of the [**Task group-- Data**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task1-data) involved in research for a suitable data to be used in the project. I also used my domain knowledge in Environmental Science in processing and analyzing the data. I was also part of the [**Task group-- Model development**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) and created a *Neural Prophet forecasting model* with an MAPE accuracy of 0.01.
+**My Contribution :** I was part of the [**Task group-- Data**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task1-data) involved in research for a suitable data to be used in the project. I also used my domain knowledge in Environmental Science in processing and analyzing the data. I was also part of the [**Task group-- Model development**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) and created a *Neural Prophet forecasting model* with an MAPE accuracy of 0.01.
 
 
 >\[!TIP\]
@@ -96,12 +84,7 @@ Due to the nature of OMDENA projects, the working packages (tasks) are usually s
 &nbsp;
 
 
-## Project Title : [Advanced weather forecasting with machine learning and python](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction)
-
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/pakistan.png" width="100%" />
-<img src="./img/pakistan.png" width="100%" />
-<em>Image source: OMDENA.com</em>
+## Project Title : [Advanced weather forecasting with machine learning and python](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction) [**Time series Forecasting**]
 
 ![alt text](/images/pakistan.png)
 </p>
@@ -127,7 +110,7 @@ The goal of this project is to develop a machine learning model that can improve
 
 ## Method and working groups 
 
-The **Task group-- Data collection** collected the data from [Open Meteo](https://open-meteo.com/en/docs/historical-weather-api) using requests and pandas library. The repo of the data collection group can be found in this [subfolder](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task1-collection). Full descrition of the parameters used in the model can be found in the `README.md` file of the project reository The [**Task group-- Exploratory Data Analysis (EDA)**](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task-2-EDA) performed EDA using descriptive and inferential statistics with the pandas library. *Matplotlib and Seaborn* libraries were primarily used for visualization. The notebooks for the EDA can be found in the task group repository. The [**Task group-- Model development :**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) models such as *LSTM*, *Random Forest* and *ARIMAX* were developed to forecast the different meterological parameters. Models of 30 days forecasts were created for the different meterological parameters. *Random Forest* was the best model with an **accuracy up to 92%**. The notebooks can be found in the [**Task group-- model deployment**](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/blob/main/src/tasks/task_3_modelling/Modelling_RandomForest.ipynb).
+The **Task group-- Data collection** collected the data from [Open Meteo](https://open-meteo.com/en/docs/historical-weather-api) using requests and pandas library. The repo of the data collection group can be found in this [subfolder](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task1-collection). Full descrition of the parameters used in the model can be found in the **`README.md`** file of the project reository The [**Task group-- Exploratory Data Analysis (EDA)**](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/tree/main/src/tasks/task-2-EDA) performed EDA using descriptive and inferential statistics with the pandas library. *Matplotlib and Seaborn* libraries were primarily used for visualization. The notebooks for the EDA can be found in the task group repository. The [**Task group-- Model development :**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) models such as *LSTM*, *Random Forest* and *ARIMAX* were developed to forecast the different meterological parameters. Models of 30 days forecasts were created for the different meterological parameters. *Random Forest* was the best model with an **accuracy up to 92%**. The notebooks can be found in the [**Task group-- model deployment**](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/blob/main/src/tasks/task_3_modelling/Modelling_RandomForest.ipynb).
 
 **My Contributions :** In this project, I was part of the [**Task group-- Model development**](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/tree/main/src/tasks/task2-exp-models-team-2) developed a 30 days forecast model of precipitation using LSTM. I was also part of the [**Task group-- model deployment**](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction/blob/main/src/tasks/task_3_modelling/Modelling_RandomForest.ipynb) and developed a streamlit app to host the models.
 
@@ -135,19 +118,14 @@ The **Task group-- Data collection** collected the data from [Open Meteo](https:
 >[**The deployed app can be accessed here**](https://karachi-pakistan-weather-prediction.streamlit.app/)
 
 
-**Challenges Faced** during the project were data accessibility, and also not all models were viable for deployment due to model compartibility with streamlit app.
+**Challenges Faced** during the project were data accessibility, and some models were not compartible with the streamlit app.
 
 &nbsp; 
 
 &nbsp;
 
-## Project Title : [Detecting microorganisms in water with deep learning](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms)
+## Project Title : [Detecting microorganisms in water with deep learning](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms) [**Object detection**]
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/micro.png" width="100%" />
-<img src="./img/micro.png" width="100%" />
-<em>Image source: OMDENA.com</em>
-</p>
 
 ![alt text](/images/micro.png)
 </p>
@@ -157,7 +135,7 @@ The **Task group-- Data collection** collected the data from [Open Meteo](https:
 
 **Project Status: Completed**
 
-## Background/Rationale
+## Background
 
 United States does a very good job of providing clean and safe drinking water to most of its residents, but water borne diseases are becoming an increasing problem. According to the Centers for Disease Control (CDC), approximately 7.5 million waterborne illness occur annually, with a healthcare cost of about $3.3 billion. These infections result in emergency visits, hospitalizations, and deaths. These are caused by microorganisms, viruses, and fecal matter in the drinking water that are the result of an aging infrastructure, chlorine resistant pathogens, and finally an increase in recreational water use.
 
@@ -165,9 +143,9 @@ United States does a very good job of providing clean and safe drinking water to
 
 
 ## Methods and task groups
-Prior to the start of the project, the Project Manager already identified suitable data for the project.The data was the [Environmental  Microorganism Image  Dataset Sixth Version (EMDS-6) and Environmental Microorganism Image Dataset Seventh Version (EMDS-7)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1084312/full). The [**Task group-- Data and research**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-1-research-bacteria-and-datasets) was responsible to check the usability of this data, and also add some more data since some classes of microorganisms (type of microorganism)  had limited data. Attached  with  the  EMDS-7dataset  is  an  object  labelling  file in  .XML  format. This file was not available for the EMDS-6 dataset, so it was created using the ‘Roboflow’software. A Microsoft Excel sheet was created as an input file to record the Microorganisms and their respective classes.
+Prior to the start of the project, the Project Manager already identified suitable data for the project.The data was the [Environmental  Microorganism Image  Dataset Sixth Version (EMDS-6) and Environmental Microorganism Image Dataset Seventh Version (EMDS-7)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1084312/full). The [**Task group-- Data and research**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-1-research-bacteria-and-datasets) was responsible to check the usability of this data, and research for more data - since some classes of microorganisms (type of microorganism)  had limited data count. Attached  with  the  EMDS-7dataset  is  an  object  labelling  file in  .XML  format. This file was not available for the EMDS-6 dataset, so it was created using the ‘Roboflow’software. A Microsoft Excel sheet was created as an input file to record the Microorganisms and their respective classes.
 This data was verified by an expert microbiologist.
-[**Task group -- Exploratory Data Analysis (EDA)**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-2-exploratory-data-analysis/src/task-2-exploratory-data-analysis/notebooks/gmilam/EDA_EMDS7.ipynb) analysed the data using the *cv2 module* for image data, and pandas to create dataframes. Class and image dimension were checked for consistency. `Matplotlib` and `Seaborn` libraries were primarily used for visualization. The [**Task group-- Model development**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-3-baseline-model) developed baseline models using algorithms such as *YOLOv8m-cls (for classification), SSD(single-shot detector), EfficientNet, Faster R-CNN, Detectron2 (object detection)* and compared based on performance and accuracy. The *YOLOv8m-classification* and *Detectron2* were the best performing models. [**Task group-- Model deployment**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-5-deployment) deployed these two models on Streamlit. The [**Task group--Presentation**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-6-presentation) was responsible for the documentation and presentation of the whole project thereby creating a starting point for the next phase (mobile app development)
+[**Task group -- Exploratory Data Analysis (EDA)**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-2-exploratory-data-analysis/src/task-2-exploratory-data-analysis/notebooks/gmilam/EDA_EMDS7.ipynb) analysed the data using the *cv2 module* for image data, and pandas to create dataframes. Class and image dimension were checked for consistency. *Matplotlib* and *Seaborn* libraries were primarily used for visualization. The [**Task group-- Model development**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-3-baseline-model) developed baseline models using algorithms such as *YOLOv8m-classification(classification), SSD(single-shot detector), EfficientNet, Faster R-CNN, Detectron2 (object detection)* and compared based on performance and accuracy. The *YOLOv8m-classification* and *Detectron2* were the best performing models. [**Task group-- Model deployment**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-5-deployment) deployed these two models on Streamlit. The [**Task group--Presentation**](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms/src/task-6-presentation) was responsible for the documentation and presentation of the whole project thereby creating a starting point for the next phase (mobile app development)
 
 **Collaborators :**You can find all the collaborators in the DagsHub [repository](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms)
 
@@ -185,13 +163,8 @@ The project blog can be found [here](https://www.omdena.com/blog/safeguard-publi
 
 
 
-## Project Title : [Flood Guard: Integration of precipitation time series and GIS data for flood forecast in Bangladesh](https://dagshub.com/Omdena/BangladeshChapter_FloodGuard)
+## Project Title : [Flood Guard: Integration of precipitation time series and GIS data for flood forecast in Bangladesh](https://dagshub.com/Omdena/BangladeshChapter_FloodGuard)  [**Time series Forecasting**]
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/flood.png" width="100%" />
-<img src="./img/flood.png" width="100%" />
-<em>Image source: OMDENA.com</em>
-</p>
 
 ![alt text](/images/flood.png)
 </p>
@@ -203,7 +176,7 @@ The project blog can be found [here](https://www.omdena.com/blog/safeguard-publi
 
 ***Key technologies and skills :*** *python, git, github, anaconda-jupyter, vscode, Google Earth Engine (GEE), tensorflow, matplotlib, jupyter, Pandas, numpy, matplotlib, streamlit, pytorch, Google Drive, MS Office, DagsHub* 
 
-## Background/Rationale
+## Background
 
 Bangladesh is highly susceptible to flooding due to its unique geography and monsoon climate. Flooding leads to significant socio-economic and environmental consequences, causing the loss of lives, displacing communities, damaging infrastructure, and disrupting livelihoods. According to historical data from the Bangladesh Water Development Board (BWDB) and the Department of Disaster Management, flooding occurs annually during the monsoon season, affecting millions of people and causing substantial economic losses.
 

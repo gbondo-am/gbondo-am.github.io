@@ -22,11 +22,12 @@ The Area of Interest (AOI) was classified into four land use classes (Water, Veg
 
 **
 
+
+![alt text](/images/LULC_raqqa.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/LULC_raqqa.png" width="100%" />
 <em>Land use land cover mapping of Raqqa using CART, and Random Forest supervised classification techniques</em>
 </p>
-
 
 [The Google Earth Engiene code can be found here](https://code.earthengine.google.com/bef2edae1acc57fa74b8fe72e0083e27) 
 
@@ -55,7 +56,7 @@ This project was done (unofficially) to ensure better visualizations of the maps
 
 **Data Transformation :** The data required transformation from a *shapefile* to a *geojson* file (compartible for web maping services). A [python script](https://github.com/Madaar49/Authorship-patterns-groundwater-africa/blob/main/geojson_generation.py) was developed to automate this conversion.
 
-**Webmap development :** To develop the web map, *html, leaflet.js and css* were used. The aim was to depoly all relevant layers on the map with a responsive popup, and each with their own legend. This was made possible by creating functions in the *leaflet.js* script and conditional statements based on layer. More information can be found in the [github repository](https://github.com/Madaar49/Authorship-patterns-groundwater-africa)
+**Webmap development :** To develop the web map, *html, leaflet.js and css* were used. The aim was to depoly all relevant layers on the map with a responsive popup, and each with their own legend. I created some *leaflet.js* functions and conditional statements to take effect based on layer. More information can be found in the [github repository](https://github.com/Madaar49/Authorship-patterns-groundwater-africa)
 
 
 ## Map
@@ -63,16 +64,22 @@ Details of the map layers and the interface can be accessed below.
 
 **Layer description**
 
+
+![alt text](/images/htw.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/htw.png" width="100%" />
 <em>A short description of how to use the webmap below, and definitions of each layer - as described in the publication</em>
 </p>
-
 
 ### webmap Interface
 
 <iframe src="https://madaar49.github.io/Authorship-patterns-groundwater-africa/
 " height="500" width="700"></iframe>
+
+</p>
+<p align="center">
+<em>The interactive webmap interface</em>
+</p>
 
 &nbsp; 
 

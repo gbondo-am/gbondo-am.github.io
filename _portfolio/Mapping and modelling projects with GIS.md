@@ -13,19 +13,22 @@ In this project we *digitize the Geology map of Dominica*.
 
 A picture format of the Dominica Map, was provided by the *Geoinformation Science Group* at *Technische Universiatet Darmstadt*. n/b. Original source of the data is referenced in the final map.
 
+
+![alt text](/images/dominica_raw.jpg)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dominica_raw.jpg"" width="100%" />
 <em>Geology Map of Dominica in picture format</em>
 </p>
 
-The project uses **ArcMap** and its toolboxes for geoprocessing and data management. Feature classes created were stored in the ESRI geodatabase (.gbd). To geoprocess thd data, the georeferencing toolbar was used, features were created with the *Edit toolbar* and quality control was ensured using the *Topology tool* in the *manage edits* toolbar.
+The project uses **ArcMap** and its toolboxes for geoprocessing and data management. Feature classes (*lines and polygons*) were created and stored in the *ESRI geodatabase (.gbd)*. To *georeferencing toolbar* was used to process the data. Quality control was ensured using the *Topology tool* in the *manage edits* toolbar.
 
 
 
 ***Deliverables**
 
+![alt text](/images/dominica.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dominica.png"" width="100%" />
 <em>Digitized Geology map of Dominica</em>
 </p>
 
@@ -33,7 +36,7 @@ The project uses **ArcMap** and its toolboxes for geoprocessing and data managem
 
 Another task we accomplished was to calulate the volume of Dominica. The main aim of this workflow was to acquire the technique of estimating 3D volume of an area of interest - which can be important in evaluating materials moved during mass wasting events.
 
-A DEM of Dominica was used to calculate the volume. The DEM raster was downloaded from opendem.org and cliped to the Dominica Area of interest (AOI). The *Surface Volume* tool in the `Functional Surface toolset`was used to calculate the volume. The input data was the clipped Dominica DEM and the reference plane was specified as above sea level. An output table was calculated to store the volume results. The map was then exported into a layout and other information added.
+A DEM of Dominica was used to calculate the volume. The DEM raster was downloaded from opendem.org and cliped to the Dominica Area of interest (AOI). The *Surface Volume* tool was used to calculate the volume. The input data was the clipped Dominica DEM and the reference plane was specified as above sea level. An output table was calculated to store the volume results. The map was then exported into a layout and other information added.
 
 **Tools used :** ESRI Geodatabase, Toolboxes: [Analysis toolbox --> Extract toolset, 3D Analyst toolbox --> Functional Surface toolset]
 
@@ -42,16 +45,11 @@ A DEM of Dominica was used to calculate the volume. The DEM raster was downloade
 
 **Deliverables**
 
-<p align="center">
-<<<<<<< Updated upstream
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/dom_vol.jpg" width="100%" />
-<em>A picture of the submitted PDF</em>
-=======
-<img src="../images/dom_vol.jpg" width="100%" />
-<em>submitted PDF report</em>
->>>>>>> Stashed changes
+![alt text](/images/dom_vol.jpg)
 </p>
-
+<p align="center">
+<em>submitted PDF report</em>
+</p>
 
 &nbsp; 
 
@@ -65,14 +63,16 @@ This project intended to investigate a site with a history of landslides, where 
 
 The data used for this exercise were DEM data, Area of interest (AOI) - basis of the mudflow, and SRTM data. The first two data was provided by the Geoinformation Science Group at Technische Universitaet Darmstadt, and the SRTM was downloaded at [Earth Explorer](earthexplorer.usgs.gov)
 
-To analyze the potential impact of a planned dam in a landslide-prone area, the first step includes creating a new ArcGIS project and add the relevant dataset. A suitable hillshade was created (using the *hillshade* tool in the `surface toolset`) from the provided DEM data and was clipped to the area of interest (AOI) representing the Mudflow. To create a second raster surface that represents the relocated material, points were digitized (using the *Edit toolbar*) around the AOI. This data was then interpolated (using *Spline* and *IDW* tools in the `Interpolation toolset`) for comparison. 
+To analyze the potential impact of a planned dam in a landslide-prone area, the first step includes creating a new ArcGIS project and add the relevant dataset. A suitable *hillshade raster* was created from the provided DEM data and was clipped to the area of interest (AOI) representing the Mudflow. To create a second raster surface that represents the relocated material, points were digitized (using the *Edit toolbar*) around the AOI. This data was then interpolated using *Spline* and *IDW* tools, for comparison. 
 
-The volume of the material was calculated by creating a 1x1m fishnet (using the *create fishnet* tool in the `Sampling toolset`) and assigned values to the attribute table. This process can also be done using  the Math Toolbox or Raster Calculator. The results were verified by repeating the workflow with an SRTM data, to compare the two calculated volumes.
+The volume of the material was calculated by creating a 1x1m fishnet using the *create fishnet* tool, and assigned values to the attribute table. This process can also be done using  the Math Toolbox or Raster Calculator. The results were verified by repeating the workflow with an SRTM data, to compare the two calculated volumes.
 
 ***Deliverables**
 
+
+![alt text](/images/mudflow_DEM.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/mudflow_DEM.png" width="100%" />
 <em>Digital elevation Model (DEM) of the project area. The green feature layer represents moved material from the mudflow event</em>
 </p>
 
@@ -82,11 +82,12 @@ The volume of the material was calculated by creating a 1x1m fishnet (using the 
 
 ***Deliverables**
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/mudflow.png" width="100%" />
-<em>A picture of the submitted PDF</em>
-</p>
 
+![alt text](/images/mudflow.png)
+</p>
+<p align="center">
+<em>An image showing tthe delination of the mudflow area, volume calculated using the two elevation models, and viewed in ArcScene</em>
+</p>
 
 &nbsp; 
 
@@ -104,8 +105,10 @@ This project intended to model the potential of landslides around Frankfurt area
 
 The data used for this exercise includes a DEM map (opendem.org), historical landslide map, Suceptible units for landslide and Area of Interest (AOI) polygon, all which were provided by the *Geoinformation group* at *Technische Universitaet Darmstadt.*
 
+
+![alt text](/images/landslide_DEM.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/landslide_DEM.png" width="100%" />
 <em>Digital elevation Model of the study area</em>
 </p>
 
@@ -117,11 +120,12 @@ Additionally, a second potential map using hillshade at different angles was dev
 
 ***Deliverables**
 
+
+![alt text](/images/landslide.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/landslide.png" width="100%" />
 <em>Modelled landslide map (left) and Potential landslide map (right) based on our study</em>
 </p>
-
 
 **Skills developed :** *Data management, geoprocessing, spatial analysis, geostatistics, modelling* using ArcMap.
 
@@ -143,11 +147,12 @@ This project intended to choose a suitable site for a waste disposal by taking i
 
 The data used for this exercise were the settlement area, Potential sites for waste disposal, a DEM, digitized geological map, and a georeferenced Google Earth image. These were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.*
 
+
+![alt text](/images/waste_img.png)
+</p>
 <p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/waste_img.png" width="100%" />
 <em>Satellite imagery of our project area</em>
 </p>
-
 
 Several criteria are predefined in selecting a suitable area. A flat area and suitable geology, should be environmentally (do not affect the biodiversity), it should be far from river or creek to avoid contamination of the water bodies, and also have good connection to the settlement. 
 
@@ -160,11 +165,13 @@ Two additional maps were created by changing the weights to get the perspective 
 
 **Deliverables**
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/waste.png" width="100%" />
-<em>The image below shows three maps modelled using different weights of the input parameters the suitability was ranked 1 to 6 with 1 - representing a suitable site and 6 - representing a less suitable site</em>
-</p>
 
+
+![alt text](/images/waste.png)
+</p>
+<p align="center">
+<em>The figure shows three maps modelled using different weighted input parameters. The suitability was ranked 1 to 6, 1 - representing the best suitable site and 6 - representing the least suitable site</em>
+</p>
 
 **Comments**
 
@@ -188,11 +195,12 @@ This project was designed to work with SKUA GOCAD SGrids data in ArcGIS Pro, and
 
 *SGrids:* also referred to as Structured grids, are a type of data structure popular in geosciences. It is used to represent spatial data - particulary structures that varies continously over space. these were provided by the *Geoinformation Science Group* at *Technische Universitaet Darmstadt.* 
 
-<p align="center">
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/Darmstadt_sgrid.png" width="100%" />
-<em>sGrid representing some of the geological units in Darmstadt, as viewed in ArcScene</em>
-</p>
 
+![alt text](/images/Darmstadt_sgrid.png)
+</p>
+<p align="center">
+<em>sGrid representing some of the geological units in Darmstadt viewed in ArcScene</em>
+</p>
 
 *Groundwater level data:* Data of groundwater heads was retrieved from GruSchu (http://gruschu.hessen.de) -  the specialized information system for groundwater and drinking water protection for the federal state of Hesse. It is governed by the Hessian Agency for Nature Conservation, Environment and Geology (www.hlnug.de).
 
