@@ -9,7 +9,7 @@ collection: /portfolio/
 ## Project Title : [Predicting the ambient electrical energy output (PE) of a Combined Cycle Power Plant (CCCP) using Machine Learning algorithms](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project)
 
 <p align="center">
-<img src="img/cccp.png" width="100%" />
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/master/cccp.png" width="100%" />
 <em>Image source: unsplash.com/@jeisblack</em>
 </p>
 
@@ -30,11 +30,8 @@ This project aims to predict the *ambient electrical energy output (PE)* of a *C
 **Deliverables :**  The full project workflow and repository can be found [here](https://github.com/Madaar49/Data-Science-1.TU_Darmstadt_final_project/blob/main/Gbondo_2331706_Final_project.ipynb)
 
 <p align="center">
-<<<<<<< Updated upstream
-<img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/ds1.png" width="100%" />
-=======
+<img src="https://github.com/gbondo-am/gbondo-am.github.io/master/images/ds1.png" width="100%" />
 <img src="./img/ds1.png" width="100%" />
->>>>>>> Stashed changes
 <em>Results from the ridge regression model with a prediction accuracy of 92%</em>
 </p>
 
