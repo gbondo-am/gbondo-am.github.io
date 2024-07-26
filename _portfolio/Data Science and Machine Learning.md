@@ -35,6 +35,12 @@ This project aims to predict the *ambient electrical energy output (PE)* of a *C
 <em>Results from the ridge regression model with a prediction accuracy of 92%</em>
 </p>
 
+![alt text](/images/ds1.png)
+<p align="center">
+<em>Results from the ridge regression model with a prediction accuracy of 92%</em>
+</p>
+
+
 &nbsp; 
 
 &nbsp;
@@ -50,11 +56,13 @@ Projects I was involved in as a **Junior Machine Learning Engineer** at Omdena
 ## Project Title : [Forecasting industrial CO2 using machine learning](https://github.com/OmdenaAI/saudi-arabia-industrial-co2/)
 
 <p align="center">
-<<<<<<< Updated upstream
 <img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/co2.png" width="100%" />
-=======
 <img src="./img/co2.png" width="100%" />
->>>>>>> Stashed changes
+<em>Image source: OMDENA.com</em>
+</p>
+
+![alt text](/images/co2.png)
+<p align="center">
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -91,11 +99,13 @@ Due to the nature of OMDENA projects, the working packages (tasks) are usually s
 ## Project Title : [Advanced weather forecasting with machine learning and python](https://github.com/OmdenaAI/karachi-pakistan-weather-prediction)
 
 <p align="center">
-<<<<<<< Updated upstream
 <img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/pakistan.png" width="100%" />
-=======
 <img src="./img/pakistan.png" width="100%" />
->>>>>>> Stashed changes
+<em>Image source: OMDENA.com</em>
+
+![alt text](/images/pakistan.png)
+</p>
+<p align="center">
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -134,11 +144,14 @@ The **Task group-- Data collection** collected the data from [Open Meteo](https:
 ## Project Title : [Detecting microorganisms in water with deep learning](https://dagshub.com/Omdena/SanJoseUSA_Microorganisms)
 
 <p align="center">
-<<<<<<< Updated upstream
 <img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/micro.png" width="100%" />
-=======
 <img src="./img/micro.png" width="100%" />
->>>>>>> Stashed changes
+<em>Image source: OMDENA.com</em>
+</p>
+
+![alt text](/images/micro.png)
+</p>
+<p align="center">
 <em>Image source: OMDENA.com</em>
 </p>
 
@@ -175,14 +188,16 @@ The project blog can be found [here](https://www.omdena.com/blog/safeguard-publi
 ## Project Title : [Flood Guard: Integration of precipitation time series and GIS data for flood forecast in Bangladesh](https://dagshub.com/Omdena/BangladeshChapter_FloodGuard)
 
 <p align="center">
-<<<<<<< Updated upstream
 <img src="https://github.com/gbondo-am/gbondo-am.github.io/blob/master/images/flood.png" width="100%" />
-=======
 <img src="./img/flood.png" width="100%" />
->>>>>>> Stashed changes
 <em>Image source: OMDENA.com</em>
 </p>
 
+![alt text](/images/flood.png)
+</p>
+<p align="center">
+<em>Image source: OMDENA.com</em>
+</p>
 
 **Project Status: Completed**
 
