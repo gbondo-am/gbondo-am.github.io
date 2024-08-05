@@ -57,4 +57,3 @@ This dashboard was created using the WASH Baseline study (2016) in Sierra Leone.
 <p align="center">
 <em>Sierra Leone water point survey dashboard</em>
 </p>
-

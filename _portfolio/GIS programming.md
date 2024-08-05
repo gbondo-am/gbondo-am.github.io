@@ -62,7 +62,7 @@ This project was done (unofficially) to ensure better visualizations of the maps
 ## Map
 Details of the map layers and the interface can be accessed below.
 
-**Layer description**
+### Layer description
 
 
 ![alt text](/images/htw.png)

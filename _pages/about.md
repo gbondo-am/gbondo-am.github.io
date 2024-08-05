@@ -41,7 +41,7 @@ Experienced in Python programming and Data Science, having led, or collaborated 
 Outside of my professional work, I code for fun, watch Football and go to the gym.
 
 
-For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/). and my  [curriculum vitae](https://gbondo-am.github.io/cv/)
+For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/) and my  [curriculum vitae](https://gbondo-am.github.io/cv/).
 
 -------------------------------------------------------------
 **Contact**

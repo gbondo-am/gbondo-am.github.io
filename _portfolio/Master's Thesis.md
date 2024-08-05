@@ -4,7 +4,7 @@ excerpt: "This folder is a documentation of my Master's thesis titled: <em>Geoge
 collection: portfolio
 ---
 
-## Thesis Title: [Geogenic radon mapping of Hessen using Machine Learning Techniques](https://github.com/Madaar49/Masters_Thesis/tree/main)
+# Thesis Title: [Geogenic radon mapping of Hessen using Machine Learning Techniques](https://github.com/Madaar49/Masters_Thesis/tree/main)
 
 ## Overview
 
@@ -16,13 +16,15 @@ This research focused on spatial modelling of *Geogenic radonpotential (GRP)* in
 
 
 ## Data and Method
-- geogenic radonpotential sampling data.
+- *Radon-2222* and *Soil gas permeability* per measuring location are used to calculate the  *Geogenic radonpotential (GRP)* using the ***(Neznal et al. 2004)*** equation.
 
 - 38 covariates related to geology, soil, climate, Uranium, DEM etc.
 
-- Use spatial cross validation for feature selection.
+- Use *spatial cross validation* for feature selection.
 
--  Develop models such as `Random Forest`, `xGBoost`, `Suport Vector Regressor`, `Multi-Layer-Perceptron Regressor`
+-  Develop models such as *Random Forest Regressor*, *xGBoost/Gradient Boosting Regressor*, *Suport Vector Regressor*, *Multi-Layer-Perceptron Regressor*
+
+- Choose the best performing models for *spatial prediction.*
 
 ## Deliverables
 
