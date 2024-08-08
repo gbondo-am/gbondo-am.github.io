@@ -18,7 +18,7 @@ This research focused on spatial modelling of *Geogenic radonpotential (GRP)* in
 ## Data and Method
 - *Radon-222* and *Soil gas permeability* per measuring location are used to calculate the  *Geogenic radonpotential (GRP)* using the ***(Neznal et al. 2004)*** equation.
 
-- 38 covariates related to geology, soil, climate, Uranium, DEM etc.
+- 38 covariates related to geology, soil, and climate, and DEM etc.
 
 - Use *spatial cross validation* for feature selection.
 
