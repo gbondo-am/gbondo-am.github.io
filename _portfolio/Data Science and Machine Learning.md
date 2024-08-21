@@ -30,7 +30,7 @@ This project aims to predict the *ambient electrical energy output (PE)* of a *C
 
 ![alt text](/images/ds1.png)
 <p align="center">
-<em>Results from the ridge regression model with a prediction accuracy of 92%</em>
+<em>Results from the ridge regression model with a prediction accuracy of ~94%</em>
 </p>
 
 
