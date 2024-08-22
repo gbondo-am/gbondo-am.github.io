@@ -12,16 +12,16 @@ redirect_from:
 
 ## Professional summary
 
-I am environmental professional with a Geoscience background. Since 2014, I have been active in the water and environmental sector, gaining experience both in industry and during my Master's training. Over the past three years, I have developed a strong passion for GIS, Data Science, and programming, focusing on modelling, and creating tools to enhance efficiency in environmental and Geoscience work. I am presently employed as a “Wissenschaftliche Mitarbeiter” by [Technische Universität Darmstadt](https://www.geo.tu-darmstadt.de/ingenieurgeologie/index.en.jsp), working at [HLNUG](https://www.hlnug.de). I am always eager to learn new tools and skills, which equipp me with a diverse skillset of varying knowledge level.
+I am environmental professional with a Geoscience background. Since 2014, I have been active in the water and environmental sector, gaining experience both in industry and during my Master's training. Over the past three years, I have developed a strong passion for GIS, Data Science, and programming, focusing on modelling, and creating tools to enhance efficiency in environmental and Geoscience work. I did my master's thesis on environmental radon modelling using machine learning techniques, thereby acquiring knowledge of environmental modelling techniques. I am presently employed as a “Wissenschaftliche Mitarbeiter” by [Technische Universität Darmstadt](https://www.geo.tu-darmstadt.de/ingenieurgeologie/index.en.jsp), working at [HLNUG](https://www.hlnug.de). I am always eager to learn new tools and skills, which equipp me with a diverse skillset of varying knowledge level.
 
 
 ## Domain knowledge and expertise
 
 **Hydrogeology and Environmental Engineering**
 
-Professionally involved in the water sector since 2017 as a Supervision Consultant, I developed technical and administrative skills through surveys, design, and supervision of water points such as borewells, mini dams, rainwater harvesting schemes, and liaising with stakeholders. During my Master's training, I acquired theoretical knowledge in water management, and practical works in water chemistry, sampling and modeling.
+Professionally involved in the water sector since 2017 as a Supervision Consultant, I developed technical and administrative skills through surveys, design, and supervision of water points such as borewells, mini dams, rainwater harvesting schemes, and liaising with stakeholders. During my Master's training, I acquired theoretical knowledge in water management, and practical works in water chemistry, sampling and modeling. I also have knowledge aboutt spatial modelling of environmental parameters using geostatistics or machine learning approaches.
 
-  *Tools : Hydrus, SWMM, AQTESOLV, MODFLOW-Model Muse, PHREEQC, and SWAT*
+  *Tools : Hydrus, SWMM, MODFLOW-Model Muse, PHREEQC, and SWAT*
 
 **Geoscience and GIS**
 
@@ -41,7 +41,7 @@ Experienced in Python programming and Data Science, having led, or collaborated 
 Outside of my professional work, I code for fun, watch Football and go to the gym.
 
 
-For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/) and my  [curriculum vitae](https://gbondo-am.github.io/cv/).
+For more details, feel free to look at documentation of my diverse skills in my [portfolio](https://gbondo-am.github.io/portfolio/) and my  [curriculum vitae](https://gbondo-am.github.io/files/CV.pdf).
 
 -------------------------------------------------------------
 **Contact**
