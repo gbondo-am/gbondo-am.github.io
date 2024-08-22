@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Portfolio"
+subtitle: "Fyi: Please click on the themes to access their respective projects "
 permalink: /portfolio/
 author_profile: true
 ---
