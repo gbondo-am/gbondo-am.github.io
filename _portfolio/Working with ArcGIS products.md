@@ -1,6 +1,6 @@
 ---
 title: "ArcGIS Products"
-excerpt: "A collection of projects using <em>ArcGIS Products</em> especially apps.<br/><br /><a href='' target='_blank'><img src='/images/dashboard.png'></a>"
+excerpt: "A collection of projects using <em>ArcGIS Products</em> especially apps.<br/><br /><a href='' target='_blank'><img src='/images/heim.png'></a>"
 collection: portfolio
 ---
 
@@ -52,8 +52,8 @@ This dashboard was created using the WASH Baseline study (2016) in Sierra Leone.
 >[**Instructions on how to use the dashboatrd can be accessed HERE**](https://github.com/Madaar49/WASH-survey-Data-Analysis-needs-assessment-/blob/main/how-to-use.md)
 
 
-![alt text](/images/dashboard.png)
-</p>
+![alt text](/images/heim.png)
+
 <p align="center">
 <em>Sierra Leone water point survey dashboard</em>
 </p>
