@@ -16,7 +16,6 @@ I am environmental professional with a Geoscience background. Since 2014, I have
 ### Current employment
 I am presently employed as a “Wissenschaftliche Mitarbeiter” by [Technische Universität Darmstadt](https://www.geo.tu-darmstadt.de/ingenieurgeologie/index.en.jsp), working at [HLNUG](https://www.hlnug.de). My tasks include search for and analyse reports that are suitable for Underground Hydrogen Storage (UHS). I am also developing a workflow to combine 3D geological models and groundwater - including exploring methods to estimate porosity and permeability. In addition, I also develop tools with python for collegues.
 
-I am environmental professional with a Geoscience background. Since 2014, I have been active in the water and environmental sector, gaining experience both in industry and during my Master's training. Over the past three years, I have developed a strong passion for GIS, Data Science, and programming, focusing on modelling, and creating tools to enhance efficiency in environmental and Geoscience work. I did my master's thesis on environmental radon modelling using machine learning techniques, thereby acquiring knowledge of environmental modelling techniques. I am presently employed as a “Wissenschaftliche Mitarbeiter” by [Technische Universität Darmstadt](https://www.geo.tu-darmstadt.de/ingenieurgeologie/index.en.jsp), working at [HLNUG](https://www.hlnug.de). I am always eager to learn new tools and skills, which equipp me with a diverse skillset of varying knowledge level.
 
 ## Domain knowledge and expertise
 
