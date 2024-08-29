@@ -49,7 +49,7 @@ This dashboard was created using the WASH Baseline study (2016) in Sierra Leone.
 >\[!TIP\]
 >[**The dashboard can be accessed HERE**](https://africageoportal.maps.arcgis.com/apps/dashboards/912c78bb3e644e31a9976f847a4fd51a)
 >
->[**Instructions on how to use the dashboatrd can be accessed HERE**](https://github.com/Madaar49/WASH-survey-Data-Analysis-needs-assessment-/blob/main/README.md)
+>[**Instructions on how to use the dashboatrd can be accessed HERE**](https://github.com/Madaar49/WASH-survey-Data-Analysis-needs-assessment-/blob/main/how-to-use.md)
 
 
 ![alt text](/images/heim.png)
