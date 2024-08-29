@@ -31,7 +31,8 @@ I am currently employed as a “Wissenschaftliche Mitarbeiter” by [Technische 
   *Tools : SciKit-Learn, Tensoflow/Keras, GeoServer and Leaflet, PostgreSQL/PostGIS*
 
 
-**Current projects** I am currently focused on the projects below.
+**Current projects** I am currently working on/interested in the projects below.
+
 Poro-Perm : Methods of estimating porositty and permeability spatially. Exploring both analytical and data-driven methods. These petrophysical properties are important for water/oil exploration, underground gas storage, as well as radon emanation.
 
 HydroChemPy : A python package for calculating and processing hydrochemical data. Standalone app or integration as a toolbox into ArcGisPro
