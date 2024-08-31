@@ -1,6 +1,6 @@
 ---
 title: "ArcGIS Products"
-excerpt: "A collection of projects using <em>ArcGIS Products</em> especially apps.<br/><br /><a href='' target='_blank'><img src='/images/heim.png'></a>"
+excerpt: "A collection of projects using <em>ArcGIS Products</em> especially apps.<br/><br /><a href='' target='_blank'><img src='/images/main.png'></a>"
 collection: portfolio
 ---
 
